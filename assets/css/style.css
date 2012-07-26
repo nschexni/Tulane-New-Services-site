@@ -1,0 +1,285 @@
+/*MAIN STYLES*/
+*{ 
+	outline:none;	
+}
+body {
+	background-color:#032a17;
+	/*font-size:62.5%;*/
+	font-size:10px;
+	font-family: Arial, Helvetica, sans-serif; 
+	width:960px;
+	margin:0 auto;
+	opacity: .99;
+}	
+#page {
+	margin:0 auto;
+	width:960px;
+	position:relative;
+}
+#main_container {
+	background-color:#FFF;
+	width:960px;
+	border-left:6px #99cc66 solid;
+	margin:10px auto 20px auto;
+	float:left;
+}	
+a {
+	color:#224568;	
+}
+a:hover {
+	color:#d98a00;	
+}
+p{
+	margin-left:10px;
+	color: #333;
+	text-decoration: none;
+	word-spacing: 0.1em;
+	text-align: left;
+	letter-spacing: 0;
+	line-height: 1.6em;
+	font-size: 1.2em;
+	/*clear:both;*/
+}
+h1,h2,h3,h4	{
+	font-family:Georgia, "Times New Roman", serif;
+	color:#222;
+	clear:both;
+}
+h1{
+	font-size: 2.4em;
+        letter-spacing: 1px;
+	font-weight:normal;
+	margin:0 40px 0 10px;
+	padding:0 0 5px 0;
+}
+h2{
+	font-size: 1.8em; 	
+	letter-spacing: 1px;
+	font-weight:normal;      
+        margin:0 40px 0 10px;
+	padding:0 0 5px 0;	
+}
+h2 a {
+	color:#222;
+	text-decoration:none;}
+h3{
+        font-size: 1.4em; 
+        letter-spacing: .05em;
+	font-weight:bold; 
+        margin:10px 0 10px 10px;
+	padding:0;
+}
+
+h4{
+        font-size: 1.2em; 
+        letter-spacing: .05em;
+        font-weight:bold; 
+        margin:10px 0 10px 10px;
+	padding:0;
+}
+
+h5{
+        font-size: 1.1em; 
+        letter-spacing: .05em;
+	font-weight:bold; 
+        margin:10px 0 10px 10px;
+	padding:0;
+}
+.gradient-container{
+	background:#fff url('/new_services/assets/img/common/gradient_back.jpg') bottom repeat-x;
+	overflow:hidden;
+}
+.gradient-blue{
+	background:#fff url('/new_services/assets/img/common/topBackBlue.gif') bottom repeat-x;
+	overflow:hidden;
+}
+.required {
+	background-image:url('/new_services/assets/img/common/required_star.gif');
+	background-repeat:no-repeat;
+	padding-left:12px;
+	background-position:left;
+	}
+.body_img {
+	border:1px solid #ccc;
+	margin:0 0 10px 10px;
+	padding: 7px 7px 7px 7px ;
+}	
+/*HEADER AND NAVIGATION*/
+#header {
+}
+/*SUB-NAVIGATION*/
+#sub_nav {
+	width:960px;
+	height:16px;
+	padding:5px 0;
+	margin:0;
+	border-top: 1px solid #ccc;
+	background-color:#F5F5F5;
+font-size:1.1em;
+}	
+#sub_nav a{
+	color:#222;
+	text-decoration:none;
+	padding:2px;
+	font-size:1.1em;
+}
+#sub_nav a:hover{
+	color:#e39309;
+	padding:2px;
+}
+#sub_nav #hours {
+	width:450px;
+	float:left;	
+	padding-left: 1em;
+	font-weight:bold;
+}		
+#sub_nav #hours a {
+	font-weight:normal;
+	color:#4388cc;
+}	
+#sub_nav #hours a:hover {
+	color:#e39309;
+	background-color:#061c31;
+}	
+#sub_nav #hours #hours_text {float:left; position:relative;}
+#sub_nav #hours #hours_calendar{padding:0px 0 0px 20px;  background-color:none; float:left; margin:-3px 0 0 0;}
+
+#sub_nav #links {
+	width:420px;
+	float:right;
+	text-align:right;
+}	
+#sub_nav #links ul {
+	margin-left: 0;
+	padding-left: 0;
+	display: inline;
+} 
+#sub_nav #links ul li {
+	margin-left: 0;
+	padding: 3px 5px;
+	border-left: 1px solid #000;
+	list-style: none;
+	display: inline;
+}	
+#sub_nav #links ul li.first {
+	border-left: none;
+}		
+#sub_nav #links ul li.first a {
+	border-left: none;
+}
+#sub_nav #links ul li.first a:hover {
+	border-left: none;
+}
+#sub_nav #links li a:hover {
+background-color:#061c31;
+padding:2px;
+}
+
+
+/**--------Site Forms--------**/
+
+.cssform p{
+	margin:0;
+	height:1%;
+	clear:left;
+	width:340px;
+	padding:10px 0px 8px 170px
+}
+
+.cssform label {
+	float:left;
+	width:170px; /*width of labels. Should be smaller than left column (155px) to create some right margin*/
+	margin-left:-175px; /*width of left column*/
+	padding-left:5px;
+
+}
+
+.cssform input[type="text"]{ /*width of text boxes. IE6 does not understand this attribute*/
+	width:180px;
+}
+
+.cssform select {
+	width:180px;
+	margin-top: -200px;
+}
+.cssform textarea {
+	width:250px;
+	height:100px;
+}
+
+/* FOOTER*/
+#footer_stripe{
+	float:left;
+	background-image:url('/new_services/assets/img/footer/footer_striped_bg.gif');
+	background-repeat:repeat-x;
+	height: 20px;
+	width:960px;
+}
+#footer {
+  float: left;
+  width: 960px;
+  background: #999999;
+}
+
+#footer a {
+  color: #FFF;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: normal;
+  text-decoration: none;
+  padding: 5px 10px 5px 10px;
+}
+#footer a:hover {
+  background: #CCC;
+  color: #061c31;
+}
+
+#footer ul {
+  display: table;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  float: right;
+}
+#footer ul li {
+  display: table-cell;
+  float: left;
+}
+#footer ul li a {
+  display: block;
+  color: #FFF;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: normal;
+  text-decoration: none;
+  padding: 5px 10px 5px 10px;
+}
+#footer ul li a:hover {
+  background: #CCC;
+  color: #061c31;
+}
+#address {
+	float:left;
+	width:960px;
+	text-align:center;
+	color:#FFF;
+	margin: -10px auto 20px auto;
+	font-size:1.1em;
+	text-align:center;
+	padding:0 0 30px 0;
+}	
+
+#address img{ 
+	margin-top:5px; 
+	_margin-top:0px;
+	vertical-align:bottom;
+	_vertical-align:middle;
+}
+#address a{
+	color:#FFF;
+	text-decoration:none;
+}	
+#address a:hover{
+	color:#d98a00;
+	text-decoration:none;
+}
