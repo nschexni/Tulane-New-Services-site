@@ -32,8 +32,29 @@ class Home extends CI_Controller {
 	}
 
         public function home_view_1(){
-           
+         
+            $this->load->helper('array');
             
-        }
+            //Homepage Array
+            $homepage = array('title' => 'New Services 1 @ Tulane Library');
+            
+            //load Carousel Model
+            $this->load->model('carousel_model');
+            $data['carousel'] = $this->carousel_model->carousel_items();
+            
+            //loads header
+            $this->load->view('common/header', $homepage);
+            
+            //loads main navigation
+            //$this->load->view('common/main_menu');
+            $this->load->view('common/main_nav_two_level');
+            
+            //loads views/home/home_view.php
+            $this->load->view('home/home_view_1', $data);  
+            
+            //loads footer
+            $this->load->view('common/footer');     
+        
+	}
         
 }
