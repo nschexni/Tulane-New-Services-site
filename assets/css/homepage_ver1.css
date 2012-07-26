@@ -1,0 +1,59 @@
+/* 
+    Document   : homepage_ver1
+    Created on : Jul 26, 2012, 4:15:51 PM
+    Author     : nschexni
+    Description:
+        Testing variation of New Services Homepage
+*/
+/* Homepage Style */
+
+
+/* HOMEPAGE VERSION _1 */
+
+
+#homepage_middle_section{
+border-top:1px solid orange;
+border-bottom:1px solid orange;
+background-color:white;
+}
+
+#collections_list{
+width:640px;
+border-right:1px solid #333;
+float:left;
+}
+
+#news_area{
+width:320;
+float:left;
+}
+
+#homepage_bottom_section{
+    background-color:#333;
+    color:white;
+    float:left;
+    width:100%;
+    border-top:1px solid red; 
+    border-bottom:1px solid red;
+}
+
+#column_contact{
+width:310px;
+float:left;
+border-right:1px solid #fff;
+}
+
+#column_statistics{
+width:310px;
+float:left;
+border-right:1px solid #fff;
+}
+
+#column_submission{
+width:310px;
+float:left;
+}
+
+
+
+
