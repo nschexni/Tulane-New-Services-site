@@ -3,7 +3,7 @@
 
 
 <!--start:Footer Wrapper --><div id="footer-wrapper">    
-<div id="footer_stripe">&nbsp;</div>
+<!--<div id="footer_stripe">&nbsp;</div>-->
 <!--start:Footer --><div id="footer">
     <ul>
         <li><a href="http://tulane.edu/">Tulane Home</a></li>

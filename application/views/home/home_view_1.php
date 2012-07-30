@@ -3,7 +3,7 @@
 <?= $carousel ?>
     
     
-<div id="homepage_middle_section"><!-- Home Page Middle Section Begin -->       
+<div id="homepage_middle_section"><!-- Home Page Middle Section Begin -->     
     <div id="collections_list">
         <div id="collections_list_content">
             <ul>
@@ -27,7 +27,7 @@
 
                  <li>
                     <div class="collections_list_img">
-                        <img src="<?=base_url()?>assets/img/home/collections_list_img_journals.png" />
+                        <img src="<?=base_url()?>assets/img/home/collections_list_img_theses.png" />
                     </div>
 
                     <div class="collections_list_text_area">
@@ -48,26 +48,52 @@
     </div>    
 
     <div id="news_area">
-        <div id="news_list">
-            <h3>news</h3>
-            <ul>
-                <li>news story 1</li>
-                <li>news story 2</li>
-            </ul>
-        </div>
-        
-        <div id="rss_list">
-            <h4>rss</h4>
-            <ul>
-                <li>rss 1</li>
-                <li>rss 2</li>
-                <li>rss 3</li>
-            </ul>
-        </div>
+        <div id="news_content_area">
+            <div id="news_list">
+                <h3>News</h3>
+                <ul>
+                    <li>
+                        <div class="news_item_container">
+                            
+                            <div class="news_list_text">
+                                <h5>News Headline</h5>
+                                <p>
+                                    <img src="<?=base_url()?>assets/img/home/news_list_img_one.png" class="news_img">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news_item_container">
+                            
+                            <div class="news_list_text">
+                                <h5>News Headline</h5>
+                                <p>
+                                    <img src="<?=base_url()?>assets/img/home/news_list_img_two.png" class="news_img">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
 
-        <div id="twitter_list">
-            <h4>twitter</h4>
-            <div id="twitter_cloud">&nbsp;</div>
+            <div id="rss_list">
+                <h3>rss</h3>
+                <ul>
+                    <?=$rss_items ?>
+                    <li>rss 2</li>
+                    <li>rss 3</li>
+                </ul>
+            
+           
+
+
+            </div>
+
+            <div id="twitter_list">
+                <h3>twitter</h3>
+                <div id="twitter_cloud">&nbsp;</div>
+            </div>
         </div>
     </div>
 </div><!--end: homepage_middle_section-->
@@ -93,7 +119,7 @@
     
     <div id="column_statistics">
         <div id="column_statistics_content">
-            <p>statistics info</p>
+            <h5>statistics info</h5>
             <h6>most popular items:</h6>
             <ul>
                 <li>item</li>
@@ -111,7 +137,7 @@
     
     <div id="column_submission">
         <div id="column_submission_content">
-            <p>submission info</p>
+            <h5>submission info</h5>
             <ul>
                 <li>theses &amp; dissertations</li>
                 <li>journal</li>

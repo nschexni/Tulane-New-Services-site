@@ -8,7 +8,7 @@
 .evo-coverStories .fuseNav a.first .text{border-left-width:0}
 .evo-coverStories .fuseNav .fuse{background-color:#CCC;height:5px;overflow:hidden}
 .evo-coverStories .fuseNav a .fuse .activeFuse{background-color:#ECA742;float:right;height:5px;width:0}
-.evo-coverStories .fuseNav a.previous .fuse{background-color:#3785c7;}
+.evo-coverStories .fuseNav a.previous .fuse{background-color:#535353;}
 .evo-coverStories .fuseNav a.active .fuse .activeFuse{float:left}
 .evo-coverStories .fuseNav a.selected .fuse{background-color:#ECA742;}
 .evo-coverStories a{text-decoration:none;color:#333;}
