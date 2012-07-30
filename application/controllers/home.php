@@ -25,7 +25,8 @@ class Home extends CI_Controller {
             $this->load->view('common/main_nav_two_level');
             
             //loads views/home/home_view.php
-            $this->load->view('home/home_view', $data);  
+            $this->load->view('home/home_view', $data);
+            
             
             //loads footer
             $this->load->view('common/footer');     
