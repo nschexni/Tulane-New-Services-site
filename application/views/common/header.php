@@ -5,6 +5,12 @@
     <title><?=$title?></title>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
     
+    <!-- css:using less for style sheet -->
+    <link rel="stylesheet/less" type="text/css" href="<?= base_url();?>assets/css/homepage.less">
+    <!-- less:make sure less css files are loaded BEFORE this less.js script!! -->
+    <script src="<?= base_url();?>assets/js/less.js" type="text/javascript"></script>
+    
+    
     <link rel="shortcut icon" href="<?=base_url();?>assets/img/header/favicon.ico" type="image/x-icon" />
     <!-- css:Reset -->
     <link rel="stylesheet" href="<?= base_url();?>assets/css/reset.css" type="text/css">
@@ -20,10 +26,6 @@
     <link rel="stylesheet" href="<?= base_url();?>assets/css/droplist.css" type="text/css">
     <!--scripts and css for Carousel-->
     <link href="<?=base_url();?>assets/css/carousel_simple.css" media="screen" rel="stylesheet" type="text/css" />
-    
-    <!--TESTING HOMEPAGE VARIATION-->
-    <link href="<?=base_url();?>assets/css/homepage_ver1.css" media="screen" rel="stylesheet" type="text/css" />
-    
     
 </head>
 
