@@ -4,6 +4,7 @@
 <head>
     <title><?=$title?></title>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+    
     <link rel="shortcut icon" href="<?=base_url();?>assets/img/header/favicon.ico" type="image/x-icon" />
     <!-- css:Reset -->
     <link rel="stylesheet" href="<?= base_url();?>assets/css/reset.css" type="text/css">
@@ -32,7 +33,7 @@
         <!--start:Header --><div id="header">
             <!--start:Logo Title --><div id="logo-title">
                 <a href="/" title="Home" rel="home" id="logo">
-                    <img src="<?=base_url();?>assets/img/header/new_services_header.png" alt="Home"  id="Header_Image_Map" usemap="#Header_Image_Map"/>
+                    <img src="<?=base_url();?>assets/img/header/community_repository_header.png" alt="Home"  id="Header_Image_Map" usemap="#Header_Image_Map"/>
                 </a>
                 <map name="Header_Image_Map" id="Header_Image_Map">
                     <area shape="rect" coords="204,0,900,104" href="<?=base_url()?>" title="New Services" alt="New Services" />
