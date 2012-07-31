@@ -80,7 +80,7 @@
             <div id="rss_list">
                 <h3>rss</h3>
                 <ul>
-                    <?=$rss_items ?>
+                    
                     <li>rss 2</li>
                     <li>rss 3</li>
                 </ul>
