@@ -22,13 +22,18 @@ class Rss_model extends CI_Model{
                         $link = $item->link;
                         $pub_date = $item->pubDate;
                         // displays the title and description on your website, formatted any way you want
-                                $rss_items[] =  '<a href="'.$link.' target="_blank">
-                                                    <li class="rss_item">
-                                                        <span class="rss_item_title">'.$title.'</span>
+                                $rss_items[] =  '<li class="rss_item">
+                                                    <div class="rss_item_container">
+                                                        <span class="rss_item_title">
+                                                            <a href="'.$link.'" target="_blank">'
+                                                                .$title.
+                                                            '</a>
+                                                        </span>
                                                         <span class="rss_item_pub_date">'.$pub_date.'</span>    
                                                         <span class="rss_item_desc">'.$description.'<span>
-                                                    </li>
-                                                </a>'
+                                                    </div>        
+                                                 </li>
+                                                '
                                                 ;
                                 $count++;
                                 if($count == $max_rss_items) break;

@@ -55,20 +55,20 @@
 .cvr-main{position:relative;height:270px}
 .overlayContent .lcs-headline{margin:6px 12px 6px 12px}
 .overlayContent .lcs-subheadline{margin:0 12px 0 12px}
-.evo-coverStories .readMoreArrow{color:#fff;text-decoration:none;text-indent:-9999px;position:absolute;left:0;bottom:0;height:18px;display:block;width:18px;background-image:url(/src/ignmedia/img/default/evolution-icons.png);background-position:0 -40px;background-repeat:no-repeat}
-.overlayContent .readMoreArrow{left:12px;bottom:6px}
+/*.evo-coverStories .readMoreArrow{color:#fff;text-decoration:none;text-indent:-9999px;position:absolute;left:0;bottom:0;height:18px;display:block;width:18px;background-image:url(/src/ignmedia/img/default/evolution-icons.png);background-position:0 -40px;background-repeat:no-repeat}
+.overlayContent .readMoreArrow{left:12px;bottom:6px}*/
 .evo-coverStories .wide li:before{clear:left;content:"\00BB";float:left;line-height:12px}
-.extra-coverStories{margin-bottom:12px;display:inline;float:left;width:628px}
-.extra-storyItem{margin:0;padding:0 12px;display:inline;float:left;width:136px}
-.extra-storyItem.alpha{padding-left:0}
+/*.extra-coverStories{margin-bottom:12px;display:inline;float:left;width:628px}
+.extra-storyItem{margin:0;padding:0 12px;display:inline;float:left;width:136px}*/
+/*.extra-storyItem.alpha{padding-left:0}
 .extra-storyItem.omega{padding-right:0}
 .extra-storyItem.separator{border-right:1px solid #333;padding-right:11px}
 .extra-storyItem{height:174px;position:relative;overflow:hidden}
-.extra-storyItem a,.extra-storyItem a:visited{font-weight:bold;font-size:18px;line-height:22px;color:#333;font-family:"proxima-nova-1","proxima-nova-2","helvetica neue",arial,sans-serif;font-weight:400}
-.extra-storyItem a:hover{color:#004d97;text-decoration:none;xtext-shadow:0 0 6px rgba(255,0,0,0.5)}
+.extra-storyItem a,.extra-storyItem a:visited{font-weight:bold;font-size:18px;line-height:22px;color:#333;font-family:"proxima-nova-1","proxima-nova-2","helvetica neue",arial,sans-serif;font-weight:400}*/
+/*.extra-storyItem a:hover{color:#004d97;text-decoration:none;xtext-shadow:0 0 6px rgba(255,0,0,0.5)}
 .extra-storyItem img{padding-bottom:8px}
 .extra-storyItem p{font-size:14px;line-height:18px;color:#333;margin-top:12px}
 .extra-coverStories a.readMoreArrow,.extra-coverStories a:hover.readMoreArrow{background:url(http://media.ignimgs.com/media/ign/imgs/red-arrow.png) no-repeat;text-decoration:none;text-indent:-9999px;position:absolute;left:12px;bottom:0;height:18px;width:18px}
 .extra-coverStories .alpha a.readMoreArrow,.extra-coverStories .alpha a:hover.readMoreArrow{left:0}
 .extra-storyItem-timestamp{font-size:11px;font-weight:bold;color:#999;text-transform:uppercase;line-height:24px}
-a.extra-storyItem-comments,a.extra-storyItem-comments:hover{display:block;font-size:11px;line-height:18px;color:#999;padding-left:22px;background:url(http://media.ignimgs.com/media/ign/imgs/comment-bubble.png) no-repeat left 4px;text-shadow:none}
+a.extra-storyItem-comments,a.extra-storyItem-comments:hover{display:block;font-size:11px;line-height:18px;color:#999;padding-left:22px;background:url(http://media.ignimgs.com/media/ign/imgs/comment-bubble.png) no-repeat left 4px;text-shadow:none}*/

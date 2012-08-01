@@ -78,7 +78,7 @@
                                     <a href="#">
                                         <img src="<?=base_url()?>assets/img/home/news_list_img_two.png" class="news_img">
                                     </a>    
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<span class="news_more_info"><a href="#">more info</a></span>.</p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="news_more_info"><a href="#">more info</a></span>.</p>
                             </div>
                         </div>
                     </li>

@@ -33,54 +33,50 @@ color:@spanish_moss;
 }
 
 /*COLLECTIONS AREA SECTION STYLES*/
-
-#collections_list{
-width:640px;
-float:left;
+#collections_list {
+  width: 640px;
+  float: left;
+  margin-top: 7px;
 }
 
 #collections_list_content{
 }
 
-#collections_list_content ul li{
-display:block;
-width:100%;
-height:200px;
+#collections_list_content ul li {
+  display: inline-block;
+  width: 100%;
+  padding:0 0 30px 0;
 }
-
-.collections_list_img{
-width:125px;
-height:125px;
-float:left;
-border:1px solid #ccc;
-padding:5px;
-margin:0 20px 0 0;
+.collections_list_img {
+  width: 125px;
+  height: 125px;
+  float: left;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin: 7px 20px 0 0;
 }
-
-.collections_list_img img{
-width:125px;
-height:125px;
+.collections_list_img img {
+  width: 125px;
+  height: 125px;
 }
-
-.collections_list_text_area{
-width:400px;
-display:inline-block;
-float:left;
+.collections_list_text_area {
+  width: 400px;
+  display: inline-block;
+  float: left;
 }
+h3.collections_list_title {
+  font-size: 2em;
+  font-weight: normal;
+  text-transform: uppercase;
+  /*color:#3785c7;*/
 
-h3.collections_list_title{
-font-size:2em;
-font-weight:normal;
-text-transform:uppercase;
-/*color:#3785c7;*/
-color: @avenue_blue;
-padding:0 0 0 0;
-margin:0 0 6px 0;
+  color: #336699;
+  padding: 0 0 0 0;
+  margin: 0 0 6px 0;
 }
-
-.collections_list_description{
-font-size:1.4em;
-line-height:1.2em;
+.collections_list_description {
+  font-size: 1.4em;
+  line-height: 1.2em;
 }
 
 
@@ -89,15 +85,31 @@ line-height:1.2em;
   width: 320px;
   float: left;
 }
+#news_area a{color:@news_red;}
+#news_area a:hover{text-decoration:underline;}
+#news_area .news_more_info{
+text-transform:uppercase;
+font-weight:bold;
+padding:0 4px 0 10px;
+display: inline-block;
+}
+
+#news_area .news_more_info:after {
+  content: "\00BB";
+  padding:0 0 0 2px;
+  color:@news_red;
+  font-size:1.3em;
+}
+
 #news_content_area {
-  width: 300px;
+  width: 305px;
+  margin: 0 0 0 5px;
   background: url('/new_services/assets/img/common/gibson_gradient.png') top repeat-x;
 }
 .news_item_container {
   border-top: 1px solid #ccc;
-width: 275px;
+  width: 280px;
 }
-
 .news_item_container p {
   padding: 0 0 10px 0;
   margin: 0 10px 0 10px;
@@ -111,7 +123,6 @@ p .news_img {
   border: 1px solid #7f0f00;
   padding: 2px;
 }
-
 #news_area h3 {
   color: #7f0f00;
   font-size: 2em;
@@ -125,69 +136,62 @@ p .news_img {
 #news_area ul li {
   margin: 0 0 5px 0px;
 }
-
 .news_list_text {
   margin: 0 0 0 -8px;
 }
-
 .news_list_text h5 {
   color: #7f0f00;
   font-size: 1.4em;
   font-family: Georgia, sarif;
   margin: 14px 0 4px 10px;
 }
-
-
-
 /*RSS SECTION STYLES*/
-
-#rss_list{
-margin:20px 0 0 0;
-width:300px;
+.rss_icon {
+  width: 16px;
+  height: 16px;
+  margin: -4px 0 0 0;
+  padding: 0;
+}
+.rss_item_container {
+  border-top: 1px solid #ccc;
+  width: 280px;
+  margin: 0 0 0 0;
+}
+#rss_list a {
+  text-decoration: none;
+  color: #535353;
+}
+#rss_list a:hover {
+text-decoration:underline;
+}
+#rss_list ul {
+  margin: 0;
+  text-decoration: none;
+  margin: 0 0 0 0;
+}
+#rss_list ul li {
+  padding: 0 0 0 0;
+}
+#rss_list .rss_item_title a {
+  display: block;
+  color: #7f0f00;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: 5px 0 0 0;
+}
+#rss_list .rss_item_pub_date {
+  display: block;
+  font-size: .9em;
+  font-weight: normal;
+  padding: 3px 0 0 0;
+}
+#rss_list .rss_item_desc {
+  display: block;
+  font-size: 1.2em;
+  font-weight: normal;
+  padding: 0;
 }
 
-.rss_icon{
-width:16px;
-height:16px;
-margin:-4px 0 0 0;
-padding:0;
-}
-
-#rss_list a{
-text-decoration:none;
-color:@spanish_moss;
-}
-
-#rss_list ul{
-margin:5px 0 15px 25px;
-text-decoration:none;
-}
-
-#rss_list ul li{
-list-style:square;
-}
-
-#rss_list .rss_item_title{
-display:block;
-color:@news_red;
-font-size:1.3em;
-font-weight:bold;
-padding:5px 0 0 0;
-}
-
-#rss_list .rss_item_pub_date{
-display:block;
-font-size:1em;
-font-weight:normal;
-padding:13px 0 3px 0;
-}
-
-#rss_list .rss_item_desc{
-display:block;
-font-size:1.2em;
-font-weight:normal;
-padding:3px 0 0 0;
-}
 
 
 
