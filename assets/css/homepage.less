@@ -21,15 +21,15 @@
 @gibson_stone:#EBF4E1;
 @cane_sugar:#AD8938;
 /*Custom Colors for Project*/
-@title_blue:#4388CC;
 @news_red:#7F0F00;
-
+@light_grey:#ccc;
 
 /*HOMEPAGE MIDDLE SECTION STYLES*/
 
 #homepage_middle_section{
-background-color:white;
+background:#fff;
 color:@spanish_moss;
+
 }
 
 /*COLLECTIONS AREA SECTION STYLES*/
@@ -85,73 +85,57 @@ line-height:1.2em;
 
 
 /*NEWS AREA STYLES*/
-#news_area{
-width:320px;
-float:left;
+#news_area {
+  width: 320px;
+  float: left;
+}
+#news_content_area {
+  width: 300px;
+  background: url('/new_services/assets/img/common/gibson_gradient.png') top repeat-x;
+}
+.news_item_container {
+  border-top: 1px solid #ccc;
+width: 275px;
 }
 
-#news_content_area{
-border-left:1px solid #ccc;
-width:300px;
+.news_item_container p {
+  padding: 0 0 10px 0;
+  margin: 0 10px 0 10px;
 }
-
+p .news_img {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin: 5px 15px 0 0;
+  border: 1px solid #7f0f00;
+  padding: 2px;
+}
 
 #news_area h3 {
-font-size:2em;
-font-weight:normal;
-text-transform:uppercase;
-color:@news_red;
-padding:0 0 0 0;
-margin:7px 0 6px 10px;
-border-bottom:3px solid; 
+  color: #7f0f00;
+  font-size: 2em;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: 7px 0 10px 0;
+  padding: 15px 0 0 0;
+  text-indent: 10px;
+  border-top: 5px solid;
+}
+#news_area ul li {
+  margin: 0 0 5px 0px;
 }
 
-#news_area ul li{
-margin:0 0 5px 0px;
-
+.news_list_text {
+  margin: 0 0 0 -8px;
 }
 
-.news_list_text{
-margin:0 0 0 -8px;
+.news_list_text h5 {
+  color: #7f0f00;
+  font-size: 1.4em;
+  font-family: Georgia, sarif;
+  margin: 14px 0 4px 10px;
 }
-
-.news_list_text h5{
-font-size:1.4em;
-color:@news_red;
-font-family:Georgia, sarif;
-margin:14px 0 4px 10px;
-}
-
-p .news_img{
-width:50px;
-height:50px;
-float:left;
-/*background-color:@news_red;*/
-margin:5px 0 0 -55px;
-border:1px solid @news_red;
-padding:2px;
-}
-
-
-.news_item_container p{
-width:220px;
-margin:0 0 0 65px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -160,6 +144,13 @@ margin:0 0 0 65px;
 #rss_list{
 margin:20px 0 0 0;
 width:300px;
+}
+
+.rss_icon{
+width:16px;
+height:16px;
+margin:-4px 0 0 0;
+padding:0;
 }
 
 #rss_list a{
@@ -197,6 +188,7 @@ font-size:1.2em;
 font-weight:normal;
 padding:3px 0 0 0;
 }
+
 
 
 

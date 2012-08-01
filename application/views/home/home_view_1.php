@@ -56,9 +56,13 @@
                         <div class="news_item_container">
                             
                             <div class="news_list_text">
-                                <h5>News Headline</h5>
+                                <a href="#">
+                                    <h5>News Headline</h5>
+                                </a> 
                                 <p>
-                                    <img src="<?=base_url()?>assets/img/home/news_list_img_one.png" class="news_img">
+                                    <a href="#">
+                                        <img src="<?=base_url()?>assets/img/home/news_list_img_one.png" class="news_img">
+                                    </a>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             </div>
                         </div>
@@ -67,10 +71,14 @@
                         <div class="news_item_container">
                             
                             <div class="news_list_text">
-                                <h5>News Headline</h5>
+                                <a href="#">
+                                    <h5>News Headline</h5>
+                                </a>
                                 <p>
-                                    <img src="<?=base_url()?>assets/img/home/news_list_img_two.png" class="news_img">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <a href="#">
+                                        <img src="<?=base_url()?>assets/img/home/news_list_img_two.png" class="news_img">
+                                    </a>    
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<span class="news_more_info"><a href="#">more info</a></span>.</p>
                             </div>
                         </div>
                     </li>
@@ -78,7 +86,7 @@
             </div>
 
             <div id="rss_list">
-                <h3>rss</h3>
+                <h3><img src="<?=base_url()?>assets/img/glyphicons/glyphicons_397_rss.png" class="rss_icon" /> rss </h3>
                 <ul>
                     <?=$rss_feed[0]; ?>
                     <?=$rss_feed[1]; ?>

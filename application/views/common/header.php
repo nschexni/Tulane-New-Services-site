@@ -15,7 +15,7 @@
     <!-- css:Reset -->
     <link rel="stylesheet" href="<?= base_url();?>assets/css/reset.css" type="text/css">
     <!-- css:Twitter Bootstrap -->
-    <!--<link rel="stylesheet" href="<?= base_url();?>assets/css/bootstrap.css" type="text/css">-->
+    <link rel="stylesheet" href="<?= base_url();?>assets/css/bootstrap.css" type="text/css">
     <!-- css:Twitter Bootstrap -->
     <!--<link rel="stylesheet" href="<?= base_url();?>assets/css/bootstrap-responsive.css" type="text/css">-->
     <!-- css:HTMLibrary Main Styles -->
