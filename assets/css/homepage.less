@@ -20,10 +20,10 @@
 @fountainbleu:#4388CC;
 @gibson_stone:#EBF4E1;
 @cane_sugar:#AD8938;
-
 /*Custom Colors for Project*/
 @title_blue:#4388CC;
-@news_red:#CD2C24;
+@news_red:#7F0F00;
+
 
 /*HOMEPAGE MIDDLE SECTION STYLES*/
 
@@ -86,12 +86,13 @@ line-height:1.2em;
 
 /*NEWS AREA STYLES*/
 #news_area{
-width:320;
+width:320px;
 float:left;
 }
 
 #news_content_area{
 border-left:1px solid #ccc;
+width:300px;
 }
 
 
@@ -102,7 +103,7 @@ text-transform:uppercase;
 color:@news_red;
 padding:0 0 0 0;
 margin:7px 0 6px 10px;
-border-bottom:1px solid; 
+border-bottom:3px solid; 
 }
 
 #news_area ul li{
@@ -116,6 +117,7 @@ margin:0 0 0 -8px;
 
 .news_list_text h5{
 font-size:1.4em;
+color:@news_red;
 font-family:Georgia, sarif;
 margin:14px 0 4px 10px;
 }
@@ -124,9 +126,12 @@ p .news_img{
 width:50px;
 height:50px;
 float:left;
-background-color:@news_red;
+/*background-color:@news_red;*/
 margin:5px 0 0 -55px;
+border:1px solid @news_red;
+padding:2px;
 }
+
 
 .news_item_container p{
 width:220px;
@@ -154,7 +159,7 @@ margin:0 0 0 65px;
 
 #rss_list{
 margin:20px 0 0 0;
-width:280px;
+width:300px;
 }
 
 #rss_list a{
@@ -173,6 +178,7 @@ list-style:square;
 
 #rss_list .rss_item_title{
 display:block;
+color:@news_red;
 font-size:1.3em;
 font-weight:bold;
 padding:5px 0 0 0;
