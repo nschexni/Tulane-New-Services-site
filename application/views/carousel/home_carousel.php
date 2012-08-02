@@ -217,5 +217,5 @@
             </div>     
         </div>
     </div>
-</div>  <!-- END: homepage_carousel --> 
 
+</div>  <!-- END: homepage_carousel --> 

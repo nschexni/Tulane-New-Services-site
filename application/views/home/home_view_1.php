@@ -3,7 +3,8 @@
 <?= $carousel ?>
     
     
-<div id="homepage_middle_section"><!-- Home Page Middle Section Begin -->     
+<div id="homepage_middle_section"><!-- Home Page Middle Section Begin -->  
+    <div class="large_striped_bar">&nbsp;</div>
     <div id="collections_list">
         <div id="collections_list_content">
             <ul>
@@ -43,6 +44,26 @@
                     </div>
                 </li>
 
+                
+                <li>
+                    <div class="collections_list_img">
+                        <img src="<?=base_url()?>assets/img/home/collections_list_img_digitial_library.png" />
+                    </div>
+
+                    <div class="collections_list_text_area">
+
+                        <h3 class="collections_list_title">
+                            Tulane University Digital Library
+                        </h3>
+
+                        <span class="collections_list_description">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </span>
+
+                    </div>
+                </li>
+                
+                
             </ul>
         </div>
     </div>    
