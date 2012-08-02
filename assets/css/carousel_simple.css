@@ -39,7 +39,7 @@
 .cvr-highlights{height:210px;padding:30px;position:absolute;right:0;top:0;width:248px;z-index:6;background:#000;background:rgba(0,0,0,0.75);overflow:hidden}
 .cvr-highlights a,.cvr-highlights{color:#fff;color:rgba(255,255,255,1)}
 
-.evo-coverStories-subitems{color:orange}
+.evo-coverStories-subitems{color:#fff;}
 .evo-coverStories-subitems li{margin:4px 0 4px 0px; list-style:none;}
 .evo-coverStories-subitems a{clear:right;
                              color:rgba(204,204,204,1);
