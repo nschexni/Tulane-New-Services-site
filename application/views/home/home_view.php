@@ -10,13 +10,17 @@
             <ul>
                 <li>
                     <div class="collections_list_img">
-                        <img src="<?=base_url()?>assets/img/home/collections_list_img_journals.png" />
+                        <a href="http://staff.library.tulane.edu/journals">
+                            <img src="<?=base_url()?>assets/img/home/collections_list_img_journals.png" />
+                        </a>    
                     </div>
 
                     <div class="collections_list_text_area">
 
                         <h3 class="collections_list_title">
-                            Tulane Journals
+                            <a href="http://staff.library.tulane.edu/journals">
+                                Tulane Journals
+                            </a>
                         </h3>
 
                         <span class="collections_list_description">
@@ -28,13 +32,17 @@
 
                  <li>
                     <div class="collections_list_img">
-                        <img src="<?=base_url()?>assets/img/home/collections_list_img_theses.png" />
+                        <a href="http://staff.library.tulane.edu/tdl_ttd/">
+                            <img src="<?=base_url()?>assets/img/home/collections_list_img_theses.png" />
+                        </a>    
                     </div>
 
                     <div class="collections_list_text_area">
 
                         <h3 class="collections_list_title">
-                            Tulane Theses &amp; Dissertations
+                            <a href="http://staff.library.tulane.edu/tdl_ttd/">
+                                Tulane Theses &amp; Dissertations
+                            </a>    
                         </h3>
 
                         <span class="collections_list_description">
@@ -47,13 +55,17 @@
                 
                 <li>
                     <div class="collections_list_img">
-                        <img src="<?=base_url()?>assets/img/home/collections_list_img_digitial_library.png" />
+                        <a href="http://digitallibrary.tulane.edu">
+                            <img src="<?=base_url()?>assets/img/home/collections_list_img_digitial_library.png" />
+                        </a>    
                     </div>
 
                     <div class="collections_list_text_area">
 
                         <h3 class="collections_list_title">
-                            Tulane University Digital Library
+                            <a href="http://digitallibrary.tulane.edu">
+                                Tulane University Digital Library
+                            </a>    
                         </h3>
 
                         <span class="collections_list_description">
@@ -71,7 +83,7 @@
     <div id="news_area">
         <div id="news_content_area">
             <div id="news_list">
-                <h3>News</h3>
+                <h3><img src="<?=base_url()?>assets/img/glyphicons/noun_newspaper_2.png" class="news_icon" /> News</h3>
                 <ul>
                     <li>
                         <div class="news_item_container">

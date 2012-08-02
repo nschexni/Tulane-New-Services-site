@@ -6,13 +6,13 @@ class Carousel_model extends CI_Model{
 
        
        $items = array(
-           'item_one_title' => 'Guidelines for Submission',
-           'item_one_link' => 'http://staff.library.tulane.edu/tdl_ttd/assets/bootstrap/doc/Tulane_PDF_Creation_Guide.pdf',
-           'item_one_img' => 'assets/img/carousel/carousel_thesis_guidelines.jpg',
+           'item_one_title' => 'Future Students',
+           'item_one_link' => 'http://library.tulane.edu',
+           'item_one_img' => 'assets/img/carousel/carousel_future_students.jpg',           
            
-           'item_two_title' => 'Future Students',
-           'item_two_link' => 'http://library.tulane.edu',
-           'item_two_img' => 'assets/img/carousel/carousel_future_students.jpg',
+           'item_two_title' => 'Guidelines for Submission',
+           'item_two_link' => 'http://staff.library.tulane.edu/tdl_ttd/assets/bootstrap/doc/Tulane_PDF_Creation_Guide.pdf',
+           'item_two_img' => 'assets/img/carousel/carousel_thesis_guidelines.jpg',
            
            'item_three_title' => 'Ralston Crawford',
            'item_three_link' => 'http://digitallibrary.tulane.edu/collection?id=49',

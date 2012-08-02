@@ -5,6 +5,7 @@
     Description:
         Testing variation of New Services Homepage using LESS
 */
+
 /* Homepage Style */
 
 /*LESS COLOR VARIABLES*/
@@ -24,222 +25,224 @@
 @news_red:#7F0F00;
 @light_grey:#ccc;
 
+
+
 /*HOMEPAGE MIDDLE SECTION STYLES*/
-
 #homepage_middle_section{
-background:#fff;
-color:@spanish_moss;
-
+    background:#fff;
+    color:@spanish_moss;
 }
+
 .large_striped_bar {
-  margin-top:-30px;
-  margin-bottom:20px;
-  border-bottom:1px solid #ccc;
-  background: url('/new_services/assets/img/common/lg_striped.png');
-  height: 20px;
-  background-repeat: repeat-x;
+    margin-top:-30px;
+    margin-bottom:20px;
+    border-bottom:1px solid #ccc;
+    background: url('/new_services/assets/img/common/lg_striped.png');
+    height: 20px;
+    background-repeat: repeat-x;
 }
 
 /*COLLECTIONS AREA SECTION STYLES*/
 #collections_list {
-  width: 640px;
-  float: left;
-  margin-top: 7px;
+    width: 640px;
+    float: left;
+    margin-top: 7px;
 }
 
 #collections_list_content{
 }
 
 #collections_list_content ul li {
-  display: inline-block;
-  width: 100%;
-  padding:15px 0 30px 0;
+    display: inline-block;
+    width: 100%;
+    padding:15px 0 30px 0;
 }
 
-
-/*PLAYING AROUND WITH BORDER STYLES*/
-.collections_list_img {
-  width: 150px;
-  height: 150px;
-  float: left;
-  padding: 0;
-  margin: 6px 20px 0 0;
-  /*  border: 1px solid #ccc;*/
-
-  /*background: -moz-linear-gradient(center top , rgb(251, 251, 251) 0%, rgb(206, 206, 206) 100%) repeat scroll 0% 0% transparent;
-    border:1px solid #ccc;
-    -moz-border-radius: 5px;
-    border-radius: 5px;*/
-
-/*    background: url('/new_services/assets/img/home/collections_image_bg.png') no-repeat;*/
-  
-  background: #f4f4f4;
-  border: 1px solid #bbbbbb;
-  
+.collections_list_img a {
+    width: 150px;
+    height: 150px;
+    float: left;
+    padding: 0;
+    margin: 6px 20px 0 0;
+    background: #f4f4f4;
+    border: 1px solid #bbbbbb;  
 }
 
-/*collections_list_img:before {
-        border: 1px solid white;
-        content: '';
-        width: 138px;
-        height: 138px;
-        position: absolute;
-}
-
-collections_list_img:after {
-        content: '';
-        position: absolute;
-        width: 136px;
-        height: 136px;
-        border: 1px solid #bbbbbb;
-        left: 1px; top: 1px;
-}*/
-
-/*end::PLAYING AROUND WITH BORDER STYLES*/
-
+.collections_list_img a:hover{border:1px solid @avenue_blue;}
 
 .collections_list_img img {
-  margin:12px 0 0 12px;
-padding:0;
-  width: 125px;
-  height: 125px;
-  border: 1px solid #bbbbbb;
+    margin:12px 0 0 12px;
+    padding:0;
+    width: 125px;
+    height: 125px;
+    border: 1px solid #bbbbbb;
 }
 .collections_list_text_area {
-  width: 400px;
-  display: inline-block;
-  float: left;
+    width: 400px;
+    display: inline-block;
+    float: left;
 }
-h3.collections_list_title {
-  font-size: 2em;
-  font-weight: normal;
-  text-transform: uppercase;
-  /*color:#3785c7;*/
 
-  color: #336699;
-  padding: 0 0 0 0;
-  margin: 0 0 6px 0;
+h3.collections_list_title {
+    font-size: 2em;
+    font-weight: normal;
+    text-transform: uppercase;
+    color:@avenue_blue;
+    padding: 0 0 0 0;
+    margin: 0 0 6px 0;
 }
+
+h3.collections_list_title a{
+    color:@avenue_blue;
+    text-decoration:none;
+}
+
+h3.collections_list_title a:hover{
+    color:@avenue_blue;
+    text-decoration:underline;
+}
+
 .collections_list_description {
-  font-size: 1.4em;
-  line-height: 1.2em;
+    font-size: 1.4em;
+    line-height: 1.2em;
 }
+
+
 
 
 /*NEWS AREA STYLES*/
 #news_area {
-  width: 320px;
-  float: left;
+    width: 320px;
+    float: left;
+}
+.news_icon {
+  width: 20px;
+  height: 20px;
+  margin: -2px 0 0 0;
+  padding: 0;
+  border-radius:2px;
 }
 #news_area a{color:@news_red;}
+
 #news_area a:hover{text-decoration:underline;}
+
 #news_area .news_more_info{
-text-transform:uppercase;
-font-weight:bold;
-padding:0 4px 0 10px;
-display: inline-block;
+    text-transform:uppercase;
+    font-weight:bold;
+    padding:0 4px 0 10px;
+    display: inline-block;
 }
 
 #news_area .news_more_info:after {
-  content: "\00BB";
-  padding:0 0 0 2px;
-  color:@news_red;
-  font-size:1.3em;
+    content: "\00BB";
+    padding:0 0 0 2px;
+    color:@news_red;
+    font-size:1.3em;
 }
 
 #news_content_area {
-  width: 305px;
-  margin: 0 0 0 5px;
-  background: url('/new_services/assets/img/common/gibson_gradient.png') top repeat-x;
+    width: 305px;
+    margin: 0 0 0 5px;
+    background: url('/new_services/assets/img/common/gibson_gradient.png') top repeat-x;
 }
 .news_item_container {
-  border-top: 1px solid #ccc;
-  width: 280px;
+    border-top: 1px solid #ccc;
+    width: 280px;
 }
 .news_item_container p {
-  padding: 0 0 10px 0;
-  margin: 0 10px 0 10px;
+    padding: 0 0 10px 0;
+    margin: 0 10px 0 10px;
 }
 p .news_img {
-  position: relative;
-  width: 50px;
-  height: 50px;
-  float: left;
-  margin: 5px 15px 0 0;
-  border: 1px solid #7f0f00;
-  padding: 2px;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 5px 15px 0 0;
+    border: 1px solid #7f0f00;
+    padding: 2px;
 }
 #news_area h3 {
-  color: #7f0f00;
-  font-size: 2em;
-  font-weight: normal;
-  text-transform: uppercase;
-  margin: 7px 0 10px 0;
-  padding: 15px 0 0 0;
-  text-indent: 10px;
-  border-top: 5px solid;
+    color: #7f0f00;
+    font-size: 2em;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 7px 0 10px 0;
+    padding: 15px 0 0 0;
+    text-indent: 10px;
+    border-top: 5px solid;
 }
 #news_area ul li {
-  margin: 0 0 5px 0px;
+    margin: 0 0 5px 0px;
 }
 .news_list_text {
-  margin: 0 0 0 -8px;
+    margin: 0 0 0 -8px;
 }
 .news_list_text h5 {
-  color: #7f0f00;
-  font-size: 1.4em;
-  font-family: Georgia, sarif;
-  margin: 14px 0 4px 10px;
+    color: #7f0f00;
+    font-size: 1.4em;
+    font-family: Georgia, sarif;
+    margin: 14px 0 4px 10px;
 }
 /*RSS SECTION STYLES*/
 .rss_icon {
-  width: 16px;
-  height: 16px;
-  margin: -4px 0 0 0;
-  padding: 0;
+    width: 16px;
+    height: 16px;
+    margin: -4px 0 0 0;
+    padding: 0;
 }
 .rss_item_container {
-  border-top: 1px solid #ccc;
-  width: 280px;
-  margin: 0 0 0 0;
+    border-top: 1px solid #ccc;
+    width: 280px;
+    margin: 0 0 0 0;
 }
+#rss_list{
+  padding-bottom:20px;
+}
+
 #rss_list a {
-  text-decoration: none;
-  color: #535353;
+    text-decoration: none;
+    color: #535353;
 }
 #rss_list a:hover {
-text-decoration:underline;
+    text-decoration:underline;
 }
 #rss_list ul {
-  margin: 0;
-  text-decoration: none;
-  margin: 0 0 0 0;
+    margin: 0;
+    text-decoration: none;
+    margin: 0 0 0 0;
 }
 #rss_list ul li {
-  padding: 0 0 0 0;
+    padding: 0 0 0 0;
 }
 #rss_list .rss_item_title a {
-  display: block;
-  color: #7f0f00;
-  font-size: 1.3em;
-  font-weight: bold;
-  padding: 5px 0 0 0;
+    display: block;
+    color: #7f0f00;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 5px 0 0 0;
 }
 #rss_list .rss_item_pub_date {
-  display: block;
-  font-size: .9em;
-  font-weight: normal;
-  padding: 3px 0 0 0;
+    display: block;
+    font-size: .9em;
+    font-weight: normal;
+    padding: 3px 0 0 0;
 }
 #rss_list .rss_item_desc {
-  display: block;
-  font-size: 1.2em;
-  font-weight: normal;
-  padding: 0;
+    display: block;
+    font-size: 1.2em;
+    font-weight: normal;
+    padding: 0;
 }
 
 
 
+
+
+/*TWITTER STYLES*/
+#twitter_list{
+    display:none;
+}
 
 
 
@@ -265,43 +268,35 @@ text-decoration:underline;
 }
 
 #homepage_bottom_section h6{
-margin:0 0 0 10px;
+    margin:0 0 0 10px;
 }
 
 #homepage_bottom_section ul li{
-margin:0 0 5px 25px;
-list-style:none;
+    margin:0 0 5px 25px;
+    list-style:none;
 }
 
 #homepage_bottom_section h5{
-font-size:2em;
-font-weight:normal;
-text-transform:uppercase;
-color:#fff;
-font-family:Georgia, serif;
-padding:0 0 0 0;
-margin:7px 0 6px 10px;
+    font-size:2em;
+    font-weight:normal;
+    text-transform:uppercase;
+    color:#fff;
+    font-family:Georgia, serif;
+    padding:0 0 0 0;
+    margin:7px 0 6px 10px;
 }
 
 #column_contact{
-width:320px;
-float:left;
+    width:320px;
+    float:left;
 }
 
 #column_statistics{
-width:320px;
-float:left;
+    width:320px;
+    float:left;
 }
 
 #column_submission{
-width:320px;
-float:left;
+    width:320px;
+    float:left;
 }
-
-
-
-
-
-
-
-
