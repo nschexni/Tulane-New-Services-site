@@ -52,9 +52,9 @@
                         </div>
                         <!-- END: fuseNav -->
 
+                        
+                        
                         <div class="carousel">
-
-
                             <div class="storyUnit wide index-0 active"> 
                                 <!-- big image -->
                                 <div class="cvr-main"> 
@@ -68,23 +68,28 @@
                                 <div class="cvr-highlights">
                                     <div class="cvr-headline lcs-headline">
                                         <a href="<?= $carousel['item_one_link']; ?>">
-                                            Guidelines For Submission
+                                            <?= $carousel['subitem_one_headline'] ?>
                                         </a>
                                     </div>
-                                    <div class="cvr-teaser lcs-teaser">A Little Help for Your BIG Project</div>
-                                    <div class="cvr-highlightsSubTitle">Get Where Your Going</div>
+                                    <div class="cvr-teaser lcs-teaser"><?= $carousel['subitem_one_teaser'] ?></div>
+                                    <div class="cvr-highlightsSubTitle"><?= $carousel['subitem_one_subtitle'] ?></div>
                                     <ul class="evo-coverStories-subitems">
                                         <li class="alpha"> 
-                                            <a href="http://tulane.edu/sse/academics/graduate/upload/guidelines_theses_dissertations.pdf">Tulane's Style Guide</a> 
+                                            <a href="<?= $carousel['subitem_one_listitems[0]']['link'] ?>">
+                                                <?= $carousel['subitem_one_listitems[0]']['title'] ?>
+                                            </a> 
                                         </li>
-                                        <li> 
-                                            <a href="http://staff.library.tulane.edu/tdl_ttd/assets/bootstrap/doc/Tulane_PDF_Creation_Guide.pdf">PDF Creation Guide</a> 
+                                        
+                                        <li class="alpha"> 
+                                            <a href="<?= $carousel['subitem_one_listitems[1]']['link'] ?>">
+                                                <?= $carousel['subitem_one_listitems[1]']['title'] ?>
+                                            </a> 
                                         </li>
-                                        <li> 
-                                            <a href="http://tulane.edu/ogps/">Copyright Information</a> 
-                                        </li>
-                                        <li> 
-                                            <a href="http://tulane.edu/ogps/">Deadlines!!!</a> 
+                                        
+                                        <li class="alpha"> 
+                                            <a href="<?= $carousel['subitem_one_listitems[2]']['link'] ?>">
+                                                <?= $carousel['subitem_one_listitems[2]']['title'] ?>
+                                            </a> 
                                         </li>
                                     </ul>
                                     <!-- END: evo-coverStories-subitems --> 
@@ -105,21 +110,34 @@
                                 <div class="cvr-highlights">
                                     <div class="cvr-headline lcs-headline">
                                         <a href="<?= $carousel['item_two_link']; ?>">
-                                            Future Students
+                                            <?= $carousel['subitem_two_headline']; ?>
                                         </a>
                                     </div>
-                                    <div class="cvr-teaser lcs-teaser">What Will the Next Generation of Students Demand from Our Institutions?</div>
-                                    <div class="cvr-highlightsSubTitle">Preparing for the 2028</div>
+                                    <div class="cvr-teaser lcs-teaser"><?= $carousel['subitem_two_teaser']; ?>
+                                    </div>
+                                    <div class="cvr-highlightsSubTitle"><?= $carousel['subitem_two_subtitle']; ?></div>
                                     <ul class="evo-coverStories-subitems">
                                         <li class="alpha"> 
-                                            <a href="#">The Class of 2028</a> 
+                                            <a href="<?= $carousel['subitem_two_listitems[0]']['link'] ?>">
+                                                <?= $carousel['subitem_two_listitems[0]']['title'] ?>
+                                            </a> 
                                         </li>
                                         <li> 
-                                            <a href="#">The Role of Library's in 20 Years</a> 
+                                            <a href="<?= $carousel['subitem_two_listitems[1]']['link'] ?>">
+                                                <?= $carousel['subitem_two_listitems[1]']['title'] ?>
+                                            </a> 
                                         </li>
                                         <li> 
-                                            <a href="#">Case Study: LOLA</a> 
+                                            <a href="<?= $carousel['subitem_two_listitems[2]']['link'] ?>">
+                                                <?= $carousel['subitem_two_listitems[2]']['title'] ?>
+                                            </a> 
                                         </li>
+                                        <li> 
+                                            <a href="<?= $carousel['subitem_two_listitems[3]']['link'] ?>">
+                                                <?= $carousel['subitem_two_listitems[3]']['title'] ?>
+                                            </a> 
+                                        </li>
+                                        
                                     </ul>
                                     <!-- END: evo-coverStories-subitems --> 
                                 </div>
