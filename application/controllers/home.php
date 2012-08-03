@@ -20,6 +20,10 @@ class Home extends CI_Controller {
             $this->load->model('rss_model');
             $data['rss_feed'] = $this->rss_model->rss_feed_items();
             
+            //load News Model
+            $this->load->model('news_model');
+            $data['news'] = $this->news_model->news_items();
+            
             //Homepage Array
             $homepage = array('title' => 'Community Repository @ Tulane Library', $data);
             

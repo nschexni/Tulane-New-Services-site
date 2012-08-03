@@ -1,10 +1,22 @@
 
 .evo-coverStories{display:inline;float:left;width:948px;overflow:hidden;position:relative}
 .evo-coverStories .fuseNav{width:100%}
-.evo-coverStories .fuseNav a{display:block;float:left;font-family: Arial, Helvetica, sans-serif; font-size:11px;font-weight:700;line-height:44px;text-transform:uppercase;}
+.evo-coverStories .fuseNav a{display:inline-block;
+                             float:left;
+                             font-family: Arial, Helvetica, sans-serif; 
+                             font-size:11px;
+                             font-weight:700;
+                             line-height:12px;
+                             text-transform:uppercase;
+}
 .evo-coverStories .fuseNav a.active{color:#7F0F00;}
 .evo-coverStories .fuseNav a span{display:block}
-.evo-coverStories .fuseNav a .text{border-left:1px solid #CCC;height:44px;padding:5px 15px 0}
+.evo-coverStories .fuseNav a .text{border-left:1px solid #CCC;
+                                   height:35px;
+                                   padding:15px 15px 0;
+verticle-align:middle;
+}
+
 .evo-coverStories .fuseNav a.first .text{border-left-width:0}
 .evo-coverStories .fuseNav .fuse{background-color:#CCC;height:5px;overflow:hidden}
 .evo-coverStories .fuseNav a .fuse .activeFuse{background-color:#7F0F00;float:right;height:5px;width:0}

@@ -57,9 +57,9 @@ class Carousel_model extends CI_Model{
            'item_three_img' => 'assets/img/carousel/carousel_crawford.jpg',
            
            //ITEM FOUR DATA
-           'item_four_title' => 'number four',
+           'item_four_title' => 'Tulane Journal of International Affairs ',
            'item_four_link' => 'http://library.google.com',
-           'item_four_img' => 'assets/img/carousel/carousel_img_4.png',
+           'item_four_img' => 'assets/img/carousel/carousel_journal_international.jpg',
            
            //ITEM FIVE DATA
            'item_five_title' => 'number five',

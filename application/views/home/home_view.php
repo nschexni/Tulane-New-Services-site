@@ -69,7 +69,7 @@
                         </h3>
 
                         <span class="collections_list_description">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            The Tulane University Digital Library (TUDL) mission is the production and delivery of digitized and native digital holdings that support the teaching, research and public service goals of the University. The online communities of scholars, students and the public have access to the rare and unique collections in areas such as Latin American studies, jazz, New Orleans and Louisiana history and architecture. 
                         </span>
 
                     </div>
@@ -89,14 +89,16 @@
                         <div class="news_item_container">
                             
                             <div class="news_list_text">
-                                <a href="#">
-                                    <h5>News Headline</h5>
+                                <a href="<?= $news['story_one']['link']; ?>">
+                                    <h5><?= $news['story_one']['title']; ?></h5>
                                 </a> 
                                 <p>
-                                    <a href="#">
+                                    <a href="<?= $news['story_one']['title']; ?>">
                                         <img src="<?=base_url()?>assets/img/home/news_list_img_one.png" class="news_img">
                                     </a>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <?= $news['story_one']['text']; ?>    
+                                    <span class="news_more_info"><a href="<?= $news['story_one']['link']; ?>">more info</a></span>
+                                </p>
                             </div>
                         </div>
                     </li>
@@ -111,7 +113,7 @@
                                     <a href="#">
                                         <img src="<?=base_url()?>assets/img/home/news_list_img_two.png" class="news_img">
                                     </a>    
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="news_more_info"><a href="#">more info</a></span>.</p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="news_more_info"><a href="#">more info</a></span></p>
                             </div>
                         </div>
                     </li>

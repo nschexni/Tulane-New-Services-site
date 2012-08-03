@@ -166,32 +166,7 @@
                                     </a> 
                                 </div>
                                 <!-- END: cvr-main --> 
-                                <!-- sub items in the right -->
-                                <div class="cvr-highlights">
-                                    <div class="cvr-headline lcs-headline">
-                                            <a href="<?= $carousel['item_four_link']; ?>">
-                                                Heading
-                                            </a>
-                                    </div>
-                                    <div class="cvr-teaser lcs-teaser">Teaser</div>
-                                    <div class="cvr-highlightsSubTitle">SubHeading</div>
-                                            <ul class="evo-coverStories-subitems">
-                                            <li class="alpha"> 
-                                                <a href="#">link 1</a> 
-                                            </li>
-                                            <li> 
-                                                <a href="#">link 2</a> 
-                                            </li>
-                                            <li> 
-                                                <a href="#">link 3</a> 
-                                            </li>
-                                            <li> 
-                                                <a href="#">link 4</a>
-                                            </li>
-                                            </ul>
-                                    <!-- END: evo-coverStories-subitems --> 
-                                </div>
-                                <!-- END: cvr-highlights --> 
+                                
                             </div>
                             <!-- END: storyUnit -->
 
