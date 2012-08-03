@@ -94,7 +94,7 @@
                                 </a> 
                                 <p>
                                     <a href="<?= $news['story_one']['title']; ?>">
-                                        <img src="<?=base_url()?>assets/img/home/news_list_img_one.png" class="news_img">
+                                        <img src="<?=base_url()?><?= $news['story_one']['img']; ?>" class="news_img">
                                     </a>
                                     <?= $news['story_one']['text']; ?>    
                                     <span class="news_more_info"><a href="<?= $news['story_one']['link']; ?>">more info</a></span>
@@ -106,16 +106,17 @@
                         <div class="news_item_container">
                             
                             <div class="news_list_text">
-                                <a href="#">
-                                    <h5>News Headline</h5>
-                                </a>
+                                <a href="<?= $news['story_two']['link']; ?>">
+                                    <h5><?= $news['story_two']['title']; ?></h5>
+                                </a> 
                                 <p>
-                                    <a href="#">
-                                        <img src="<?=base_url()?>assets/img/home/news_list_img_two.png" class="news_img">
-                                    </a>    
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="news_more_info"><a href="#">more info</a></span></p>
+                                    <a href="<?= $news['story_two']['title']; ?>">
+                                        <img src="<?=base_url()?>assets/img/home/news_list_img_one.png" class="news_img">
+                                    </a>
+                                    <?= $news['story_two']['text']; ?>    
+                                    <span class="news_more_info"><a href="<?= $news['story_two']['link']; ?>">more info</a></span>
+                                </p>
                             </div>
-                        </div>
                     </li>
                 </ul>
             </div>
