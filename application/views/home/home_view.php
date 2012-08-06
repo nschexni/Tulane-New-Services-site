@@ -83,7 +83,7 @@
     <div id="news_area">
         <div id="news_content_area">
             <div id="news_list">
-                <h3><img src="<?=base_url()?>assets/img/glyphicons/noun_newspaper_2.png" class="news_icon" /> News</h3>
+                <h3><img src="<?=base_url()?>assets/img/glyphicons/noun_newspaper_3.png" class="news_icon" /> News</h3>
                 <ul>
                     <li>
                         <div class="news_item_container">
