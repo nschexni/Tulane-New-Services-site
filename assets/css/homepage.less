@@ -30,11 +30,11 @@
 /*HOMEPAGE MIDDLE SECTION STYLES*/
 #homepage_middle_section{
     background:#fff;
-    color:@spanish_moss;
+    color:#222;
 }
 
 .large_striped_bar {
-    margin-top:-30px;
+    margin-top:-35px;
     margin-bottom:20px;
     border-bottom:1px solid #ccc;
     background: url('/new_services/assets/img/common/nav_striped_bg.gif');
@@ -103,8 +103,14 @@ h3.collections_list_title a:hover{
 }
 
 .collections_list_description {
-    font-size: 1.4em;
-    line-height: 1.2em;
+font-family: Arial;
+color: #222;
+text-decoration: none;
+word-spacing: normal;
+text-align: left;
+letter-spacing: 0;
+line-height: 1.5em;
+font-size: 1.5em;
 }
 
 
@@ -156,9 +162,13 @@ h3.collections_list_title a:hover{
 }
 .news_list_text h5 {
   color: #7f0f00;
-  font-size: 1.4em;
   font-family:Arial,sans-serif;
   margin: 4px 0 0 10px;
+  display: block;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: 5px 0 0 0;
+  
 }
 .news_list_text p {
   padding: 0 0 5px 0;
@@ -172,12 +182,14 @@ h3.collections_list_title a:hover{
   margin: 6px 5px -1px 0;
   border: 1px solid #7f0f00;
 }
+
 .news_list_text .news_more_info {
   text-transform: uppercase;
   font-weight: bold;
   padding: 0 4px 0 4px;
   display: inline-block;
 }
+
 .news_list_text .news_more_info:after {
   content: "\00BB";
   padding: 0 0 0 2px;
@@ -196,11 +208,6 @@ h3.collections_list_title a:hover{
   margin: -4px 0 0 0;
   padding: 0;
 }
-/*.rss_item_container {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}*/
 
 .news_item_container {
   border-top: 1px solid #ccc;
@@ -211,22 +218,27 @@ h3.collections_list_title a:hover{
 #rss_list {
   padding-bottom: 20px;
 }
+
 #rss_list a {
   text-decoration: none;
   color: #535353;
 }
+
 #rss_list a:hover {
   text-decoration: underline;
 }
+
 #rss_list ul {
   margin: 0;
   text-decoration: none;
   margin: 0 0 0 0;
 }
+
 #rss_list ul li {
   border-top: 1px solid #ccc;
   padding: 0 20px 0 30px;
 }
+
 #rss_list .rss_item_title a {
   display: block;
   color: #7f0f00;
@@ -234,12 +246,14 @@ h3.collections_list_title a:hover{
   font-weight: bold;
   padding: 5px 0 0 0;
 }
+
 #rss_list .rss_item_pub_date {
   display: block;
   font-size: .9em;
   font-weight: normal;
   padding: 2px 0 0 0;
 }
+
 #rss_list .rss_item_desc {
   display: block;
   font-size: 1.2em;
@@ -269,10 +283,28 @@ h3.collections_list_title a:hover{
 /*HOMEPAGE BOTTOM SECTION STYLES*/
 
 #homepage_bottom_section{
-    background-color:#535353;
+    background: #535353 url('/new_services/assets/img/home/footer/chalkboard_bg.jpg');
     color:white;
     float:left;
     width:100%;
+}
+
+#homepage_bottom_section a{
+    color:#fff;
+}
+
+#homepage_bottom_section a:hover{
+    color:#fff;
+    text-decoration: underline;
+}
+
+.large_striped_bar_footer{    
+    margin-top:0px;
+    margin-bottom:20px;
+    border-top:1px solid #ccc;
+    background: url('/new_services/assets/img/common/nav_striped_bg.gif');
+    height: 5px;
+    background-repeat: repeat-x;
 }
 
 #homepage_bottom_section p{
@@ -303,12 +335,49 @@ h3.collections_list_title a:hover{
     float:left;
 }
 
+#column_contact {
+  width: 320px;
+  float: left;
+}
+#column_contact_content p.contact_text {
+  margin: -10px 0 10px 30px;
+  font-size: 1.7em;
+  display:none;
+}
+
+#column_contact_content ul{
+margin:15px 0 0 5px;
+}
+
+#column_contact_content li .contact_name {
+  font-size: 2.1em;
+  font-weight:700;
+  margin: 5px 0 0 0;
+}
+#column_contact_content li .contact_phone {
+  font-size: 1.7em;
+  margin: 5px 0 0 0;
+}
+#column_contact_content li .contact_email {
+  font-size: 1.7em;
+  margin: 5px 0 0 0;
+}
+
 #column_statistics{
-    width:320px;
+    width:310px;
     float:left;
+/*    border-left:1px solid #fff;
+    border-right:1px solid #fff;*/
 }
 
 #column_submission{
     width:320px;
     float:left;
+}
+
+#column_submission li.list_star{
+  list-style: url('/new_services/assets/img/home/footer/list_star.png');
+  font-size:2em;
+  text-transform:capitalize;
+  padding:10px 0 10px 0;
 }

@@ -30,11 +30,11 @@ class Rss_model extends CI_Model{
                                                             '</a>
                                                         </span>
                                                         <span class="rss_item_pub_date">'.$pub_date.'</span>    
-                                                        <span class="rss_item_desc">'.$description.'<span>
+                                                        <span class="rss_item_desc">'.$description.'</span>
                                                     </div>        
                                                  </li>
-                                                '
-                                                ;
+                                                ';
+                                                
                                 $count++;
                                 if($count == $max_rss_items) break;
                                 

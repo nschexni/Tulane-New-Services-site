@@ -10,6 +10,7 @@ class Carousel_model extends CI_Model{
            'item_one_title' => "Future Students",
            'item_one_link' => "http://library.tulane.edu",
            'item_one_img' => "assets/img/carousel/carousel_future_students.jpg",
+           'item_one_alt' => "Future Student",
            'subitem_one_headline' => "Future Students", 
            'subitem_one_teaser' => "What Will the Next Generation of Students Demand from Our Institutions?", 
            'subitem_one_subtitle' => "Preparing for the 2028", 
@@ -27,9 +28,10 @@ class Carousel_model extends CI_Model{
                                       ),
            
            //ITEM TWO DATA
-           'item_two_title' => 'Guidelines for Submission',
+           'item_two_title' => 'Guidelines for ETD Submission',
            'item_two_link' => 'http://staff.library.tulane.edu/tdl_ttd/assets/bootstrap/doc/Tulane_PDF_Creation_Guide.pdf',
            'item_two_img' => 'assets/img/carousel/carousel_thesis_guidelines.jpg',
+           'item_two_alt' => "Thesis and Dissertation Guidelines",
            'subitem_two_headline' => "Guidelines For Submission",
            'subitem_two_teaser' => "A Little Help for Your BIG Project", 
            'subitem_two_subtitle' => "Get Where Your Going:", 
@@ -52,19 +54,22 @@ class Carousel_model extends CI_Model{
            
            
            //ITEM THREE DATA
-           'item_three_title' => 'Ralston Crawford',
+           'item_three_title' => 'Ralston Crawford Photographs',
            'item_three_link' => 'http://digitallibrary.tulane.edu/collection?id=49',
            'item_three_img' => 'assets/img/carousel/carousel_crawford.jpg',
+           'item_three_alt' => "Ralston Crawfor Photographs",
            
            //ITEM FOUR DATA
            'item_four_title' => 'Tulane Journal of International Affairs ',
-           'item_four_link' => 'http://library.google.com',
+           'item_four_link' => 'http://129.81.82.219/index.php/tjia/index',
            'item_four_img' => 'assets/img/carousel/carousel_journal_international.jpg',
+           'item_four_alt' => "Tulane Journal of International Affairs",
            
            //ITEM FIVE DATA
            'item_five_title' => 'number five',
            'item_five_link' => 'http://lsu.edu',
            'item_five_img' => 'assets/img/carousel/carousel_img_5.png',
+           'item_five_alt' => "number five",
        );
        
        

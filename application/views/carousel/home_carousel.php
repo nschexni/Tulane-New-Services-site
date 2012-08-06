@@ -59,7 +59,7 @@
                                 <!-- big image -->
                                 <div class="cvr-main"> 
                                     <a href="<?= $carousel['item_one_link']; ?>">
-                                            <img src="<?= base_url().$carousel['item_one_img']; ?>" />
+                                            <img src="<?= base_url().$carousel['item_one_img']; ?>" alt="<?= $carousel['item_one_alt']; ?>" />
                                     </a> 
                                 </div>
                                 <!-- END: cvr-main --> 
@@ -102,7 +102,7 @@
                                 <!-- big image -->
                                 <div class="cvr-main"> 
                                     <a href="<?= $carousel['item_two_link']; ?>">
-                                            <img src="<?= base_url().$carousel['item_two_img']; ?>" />
+                                            <img src="<?= base_url().$carousel['item_two_img']; ?>" alt="<?= $carousel['item_two_alt']; ?>" />
                                     </a> 
                                 </div>
                                 <!-- END: cvr-main --> 
@@ -150,7 +150,7 @@
                                 <!-- big image -->
                                 <div class="cvr-main"> 
                                     <a href="<?= $carousel['item_three_link']; ?>">
-                                            <img src="<?= base_url().$carousel['item_three_img']; ?>" />
+                                            <img src="<?= base_url().$carousel['item_three_img']; ?>" alt="<?= $carousel['item_three_alt']; ?>" />
                                     </a> 
                                 </div>
                                 <!-- END: cvr-main --> 
@@ -162,7 +162,7 @@
                                 <!-- big image -->
                                 <div class="cvr-main"> 
                                     <a href="<?= $carousel['item_four_link']; ?>">
-                                    <img src="<?= base_url().$carousel['item_four_img']; ?>" />
+                                    <img src="<?= base_url().$carousel['item_four_img']; ?>" alt="<?= $carousel['item_four_alt']; ?>" />
                                     </a> 
                                 </div>
                                 <!-- END: cvr-main --> 
@@ -174,7 +174,7 @@
                                 <!-- big image -->
                                 <div class="cvr-main"> 
                                     <a href="<?= $carousel['item_five_link']; ?>">
-                                        <img src="<?= base_url().$carousel['item_five_img']; ?>" />
+                                        <img src="<?= base_url().$carousel['item_five_img']; ?>" alt="<?= $carousel['item_five_alt']; ?>" />
                                     </a> 
                                 </div>
                                 <!-- END: cvr-main --> 
