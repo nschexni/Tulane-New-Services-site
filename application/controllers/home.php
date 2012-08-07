@@ -31,7 +31,7 @@ class Home extends CI_Controller {
             $this->load->view('common/header', $homepage);
             
             //loads main navigation
-            $this->load->view('common/main_nav_two_level');
+            $this->load->view('common/repository_main_menu');
   
             //loads views/home/home_view.php
             //$this->load->view('home/home_view_1', $data);  
