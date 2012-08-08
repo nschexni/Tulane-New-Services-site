@@ -1,7 +1,3 @@
-
-<!--//link to the CSS files for this menu type -->
-<link rel="stylesheet" media="screen" href="<?=base_url()?>assets/css/superfish.css" /> 
-<link rel="stylesheet" media="screen" href="<?=base_url()?>assets/css/superfish-navbar.css" /> 
  
 <!--// link to the JavaScript files (hoverIntent is optional) -->
 <script type="text/javascript"  src="<?=base_url()?>assets/js/custom/jquery_hoverIntent.js"></script> 
