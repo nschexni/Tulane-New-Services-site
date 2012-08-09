@@ -28,28 +28,28 @@ class Carousel_model extends CI_Model{
                                       ),
            
            //ITEM TWO DATA
-           'item_two_title' => 'Guidelines for ETD Submission',
-           'item_two_link' => 'http://staff.library.tulane.edu/tdl_ttd/assets/bootstrap/doc/Tulane_PDF_Creation_Guide.pdf',
-           'item_two_img' => 'assets/img/carousel/carousel_thesis_guidelines.jpg',
-           'item_two_alt' => "Thesis and Dissertation Guidelines",
-           'subitem_two_headline' => "Guidelines For Submission",
-           'subitem_two_teaser' => "A Little Help for Your BIG Project", 
-           'subitem_two_subtitle' => "Get Where Your Going:", 
+           'item_two_title' => 'the Charrette',
+           'item_two_link' => 'https://journals.tulane.edu/index.php/TC/index',
+           'item_two_img' => 'assets/img/carousel/carousel_charrette.jpg',
+           'item_two_alt' => "the Charrette Journal from the Tulane School of Architecture",
+           'subitem_two_headline' => "the Charrette | July 2012",
+           'subitem_two_teaser' => "Layered Capacities", 
+           'subitem_two_subtitle' => "Articles:", 
            'subitem_two_listitems[0]' => array(
-                                        "link"=>"http://tulane.edu/sse/academics/graduate/upload/guidelines_theses_dissertations.pdf",
-                                        "title"=>"Tulane's Style Guide"
+                                        "link"=>"https://journals.tulane.edu/index.php/TC/article/view/14/14",
+                                        "title"=>"A Modernist Perspective: New Orleans Design Threatened"
                                       ), 
            'subitem_two_listitems[1]' => array(
-                                        "link"=>"http://staff.library.tulane.edu/tdl_ttd/assets/bootstrap/doc/Tulane_PDF_Creation_Guide.pdf",
-                                        "title"=>"PDF Creation Guide"
+                                        "link"=>"https://journals.tulane.edu/index.php/TC/article/view/17/17",
+                                        "title"=>"Defining Confinement: Are Posh Prisons the Answer?"
                                       ),
            'subitem_two_listitems[2]' => array(
-                                        "link"=>"http://tulane.edu/ogps/",
-                                        "title"=>"Copyright Information"
+                                        "link"=>"https://journals.tulane.edu/index.php/TC/article/view/12/12",
+                                        "title"=>"Genesis: Lucid Dreaming as a Design Tool"
                                       ),
            'subitem_two_listitems[3]' => array(
-                                        "link"=>"http://tulane.edu/ogps/",
-                                        "title"=>"Deadlines!!!"
+                                        "link"=>"https://journals.tulane.edu/index.php/TC/article/view/15/15",
+                                        "title"=>"The Shard: Experiencing London's Vertical City"
                                       ),
            
            
