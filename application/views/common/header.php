@@ -23,7 +23,11 @@
     <!-- css:TDL Main Styles -->
     <link rel="stylesheet" href="<?= base_url();?>assets/css/new_services_main_style.css" type="text/css">
     <!-- css:Main Navigation -->
-    <link rel="stylesheet" href="<?= base_url();?>assets/css/repository_nav_menu.css" type="text/css">
+    <link rel="stylesheet" href="<?= base_url();?>assets/css/droplist.css" type="text/css">
+    <!-- css:superfish menu css files -->
+    <link rel="stylesheet" href="<?= base_url();?>assets/css/superfish.css" type="text/css">
+    <link rel="stylesheet" href="<?= base_url();?>assets/css/superfish-navbar.css" type="text/css">
+    
     <!--scripts and css for Carousel-->
     <link href="<?=base_url();?>assets/css/carousel_simple.css" media="screen" rel="stylesheet" type="text/css" />
     

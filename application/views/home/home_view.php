@@ -24,7 +24,7 @@
                         </h3>
 
                         <span class="collections_list_description">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            Open Access  peer-reviewed journals published through Tulane University Journal Publishing.
                         </span>
 
                     </div>
@@ -46,7 +46,7 @@
                         </h3>
 
                         <span class="collections_list_description">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                           Tulane graduate theses and dissertations from 1956 through the present.
                         </span>
 
                     </div>
@@ -69,7 +69,7 @@
                         </h3>
 
                         <span class="collections_list_description">
-                            The Tulane University Digital Library (TUDL) mission is the production and delivery of digitized and native digital holdings that support the teaching, research and public service goals of the University. The online communities of scholars, students and the public have access to the rare and unique collections in areas such as Latin American studies, jazz, New Orleans and Louisiana history and architecture. 
+                           Digitized collections of photographs, sheet music, manuscripts, texts, and other unique and rare material from Tulane's libraries, archives and other affiliated resources and centers.
                         </span>
 
                     </div>
