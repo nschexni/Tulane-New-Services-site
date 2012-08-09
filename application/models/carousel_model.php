@@ -7,16 +7,16 @@ class Carousel_model extends CI_Model{
        
        $items = array(
             //ITEM ONE DATA
-           'item_one_title' => "Future Students",
-           'item_one_link' => "http://library.tulane.edu",
-           'item_one_img' => "assets/img/carousel/carousel_future_students.jpg",
+           'item_one_title' => "Tulane University Football Programs",
+           'item_one_link' => "http://digitallibrary.tulane.edu/collection?id=66",
+           'item_one_img' => "assets/img/carousel/carousel_football_programs.jpg",
            'item_one_alt' => "Future Student",
-           'subitem_one_headline' => "Future Students", 
-           'subitem_one_teaser' => "What Will the Next Generation of Students Demand from Our Institutions?", 
-           'subitem_one_subtitle' => "Preparing for the 2028", 
+           'subitem_one_headline' => "", 
+           'subitem_one_teaser' => "", 
+           'subitem_one_subtitle' => "", 
            'subitem_one_listitems[0]' => array(
-                                        "link"=>"http://library.tulane.edu",
-                                        "title"=>"The Class of 2028"
+                                        "link"=>"",
+                                        "title"=>""
                                       ), 
            'subitem_one_listitems[1]' => array(
                                         "link"=>"http://library.tulane.edu",

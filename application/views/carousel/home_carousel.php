@@ -63,38 +63,6 @@
                                     </a> 
                                 </div>
                                 <!-- END: cvr-main --> 
-
-                                <!-- sub items in the right -->
-                                <div class="cvr-highlights">
-                                    <div class="cvr-headline lcs-headline">
-                                        <a href="<?= $carousel['item_one_link']; ?>">
-                                            <?= $carousel['subitem_one_headline'] ?>
-                                        </a>
-                                    </div>
-                                    <div class="cvr-teaser lcs-teaser"><?= $carousel['subitem_one_teaser'] ?></div>
-                                    <div class="cvr-highlightsSubTitle"><?= $carousel['subitem_one_subtitle'] ?></div>
-                                    <ul class="evo-coverStories-subitems">
-                                        <li class="alpha"> 
-                                            <a href="<?= $carousel['subitem_one_listitems[0]']['link'] ?>">
-                                                <?= $carousel['subitem_one_listitems[0]']['title'] ?>
-                                            </a> 
-                                        </li>
-                                        
-                                        <li class="alpha"> 
-                                            <a href="<?= $carousel['subitem_one_listitems[1]']['link'] ?>">
-                                                <?= $carousel['subitem_one_listitems[1]']['title'] ?>
-                                            </a> 
-                                        </li>
-                                        
-                                        <li class="alpha"> 
-                                            <a href="<?= $carousel['subitem_one_listitems[2]']['link'] ?>">
-                                                <?= $carousel['subitem_one_listitems[2]']['title'] ?>
-                                            </a> 
-                                        </li>
-                                    </ul>
-                                    <!-- END: evo-coverStories-subitems --> 
-                                </div>
-                                <!-- END: cvr-highlights --> 
                             </div>
                             <!-- END: storyUnit -->
 
