@@ -9,23 +9,9 @@ class Carousel_model extends CI_Model{
             //ITEM ONE DATA
            'item_one_title' => "Tulane University Football Programs",
            'item_one_link' => "http://digitallibrary.tulane.edu/collection?id=66",
-           'item_one_img' => "assets/img/carousel/carousel_football_programs.jpg",
-           'item_one_alt' => "Future Student",
-           'subitem_one_headline' => "", 
-           'subitem_one_teaser' => "", 
-           'subitem_one_subtitle' => "", 
-           'subitem_one_listitems[0]' => array(
-                                        "link"=>"",
-                                        "title"=>""
-                                      ), 
-           'subitem_one_listitems[1]' => array(
-                                        "link"=>"http://library.tulane.edu",
-                                        "title"=>"The Role of Library's in 20 Years"
-                                      ),
-           'subitem_one_listitems[2]' => array(
-                                        "link"=>"http://library.tulane.edu",
-                                        "title"=>"Case Study: LOLA"
-                                      ),
+           'item_one_img' => "assets/img/carousel/carousel_football_programs_ver2.jpg",
+           'item_one_alt' => "Tulane University Football Programs",
+
            
            //ITEM TWO DATA
            'item_two_title' => 'the Charrette',
@@ -66,10 +52,25 @@ class Carousel_model extends CI_Model{
            'item_four_alt' => "Tulane Journal of International Affairs",
            
            //ITEM FIVE DATA
-           'item_five_title' => 'number five',
-           'item_five_link' => 'http://lsu.edu',
-           'item_five_img' => 'assets/img/carousel/carousel_img_5.png',
-           'item_five_alt' => "number five",
+           'item_five_title' => 'THESIS: RETROVIRAL MEDIATED TRANSGENESIS',
+           'item_five_link' => 'http://staff.library.tulane.edu/tdl_ttd',
+           'item_five_img' => 'assets/img/carousel/carousel_thesis_retroviral.jpg',
+           'item_five_alt' => "Thesis: Retroviral Mediated Transgenesis of the Human Blood Fluke, Schistosoma Manosin by Kristine J. Kines, MSPH",
+           'subitem_five_headline' => "THESIS: Retroviral Mediated Trangenesis Of The Human Blood Fluke, Schistosoma Mansoni", 
+           'subitem_five_teaser' => "By: Kristine J. Kines, MSPH", 
+           'subitem_five_subtitle' => "", 
+           'subitem_five_listitems[0]' => array(
+                                        "link"=>"",
+                                        "title"=>""
+                                      ), 
+           'subitem_five_listitems[1]' => array(
+                                        "link"=>"",
+                                        "title"=>""
+                                      ),
+           'subitem_five_listitems[2]' => array(
+                                        "link"=>"",
+                                        "title"=>""
+                                      ),
        );
        
        

@@ -149,21 +149,16 @@
                                 <!-- sub items in the right -->
                                 <div class="cvr-highlights">
                                     <div class="cvr-headline lcs-headline">
-                                            <a href="<?= $carousel['item_five_link']; ?>">Heading</a>
+                                            <a href="<?= $carousel['item_five_link']; ?>">
+                                                <?= $carousel['subitem_five_headline']; ?>
+                                            </a>
                                     </div>
-                                    <div class="cvr-teaser lcs-teaser">Teaser</div>
-                                    <div class="cvr-highlightsSubTitle">SubHeading</div>
-                                        <ul class="evo-coverStories-subitems">
-                                            <li class="alpha"> 
-                                                <a href="#">link 1</a> 
-                                            </li>
-                                            <li> 
-                                                <a href="#">link 2</a> 
-                                            </li>
-                                            <li> 
-                                                <a href="#">link 3</a> 
-                                            </li>
-                                        </ul>
+                                    <div class="cvr-teaser lcs-teaser">
+                                        <?= $carousel['subitem_five_teaser']; ?>
+                                    </div>
+                                    <div class="cvr-highlightsSubTitle">
+                                        <?= $carousel['subitem_five_subtitle']; ?>
+                                    </div>
                                     <!-- END: evo-coverStories-subitems --> 
                                     </div>
                                 <!-- END: cvr-highlights --> 

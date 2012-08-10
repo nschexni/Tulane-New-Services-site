@@ -25,6 +25,8 @@
     <script src="<?=base_url()?>assets/js/custom/jquery_hoverIntent.js" type="text/javascript"></script>
     <script src="<?=base_url()?>assets/js/custom/jquery_howard_menu.js" type="text/javascript"></script>
     <script src="<?=base_url();?>assets/js/custom/jquery_sizzle.js" type="text/javascript"></script>        
+<!--    <script src="<?=base_url();?>assets/js/custom/sizzle.js" type="text/javascript"></script>    -->
+    
     
     <script src="<?=base_url()?>assets/js/bootstrap-transition.js"></script>
     <script src="<?=base_url()?>assets/js/bootstrap-alert.js"></script>

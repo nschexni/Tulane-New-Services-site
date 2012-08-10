@@ -38,16 +38,11 @@
             <li class="nav_top_level">
                     <a href="http://journals.tulane.edu">journals</a>                     
             </li>
-            
-            <li class="nav_top_level nav_top_level_services">
-                    <a href="http://xerxes.library.tulane.edu/tdl/research/cols">services</a>
-                    <ul>
-                        <li><a href="http://xerxes.library.tulane.edu/tdl/research/cols">researcher services</a></li>
-                        <li><a href="http://staff.library.tulane.edu/ojs">publishing services</a></li>
-                    </ul>
-                    
-            </li>
-            
     </ul>
 
+    <ul class="sf-menu services">
+        <li class="nav_top_level"><a href="http://staff.library.tulane.edu/ojs">publishing services</a>
+        <li class="nav_top_level"><a href="http://xerxes.library.tulane.edu/tdl/research/cols">researcher services</a>
+    </ul>
+                    
 

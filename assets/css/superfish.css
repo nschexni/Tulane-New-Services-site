@@ -86,7 +86,7 @@ ul.sf-menu li li li.sfHover ul {
         font-weight:            bold;
 }
 .sf-menu li {
-background:url('/new_services/assets/img/common/overBlue.gif'); 
+background:url('/new_services/assets/img/common/topBackBlue.gif'); 
 }
 
 .sf-menu li.current{
@@ -111,4 +111,11 @@ color:#224568;
 .sf-menu li.current {
 	background:url('/new_services/assets/img/common/topHover_blue.gif'); 
         color:#224568;
+}
+
+.sf-menu li.nav_top_level:nth-child(4n){border-right:1px solid #fff;}
+
+.sf-menu.services{
+background:none;
+margin:-36px 0 0 660px;
 }
