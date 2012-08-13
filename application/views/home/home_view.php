@@ -168,7 +168,7 @@
             <p>
                 We currently have: 
                     <a href="http://staff.library.tulane.edu/tdl_ttd">4371 Theses &amp; Dissertations</a>; 
-                    <a href="http://digitallibrary.tulane.edu/">18 Digital Collections encompassing over ???? items</a>; 
+                    <a href="http://digitallibrary.tulane.edu/">18 Digital Collections encompassing over 11,000 items</a>; 
                     and <a href="http://journals.tulane.edu/">4 Open-Access Academic Journals.</a>
             </p>
         </div>
