@@ -10,7 +10,7 @@
             <ul>
                 <li>
                     <div class="collections_list_img">
-                        <a href="http://staff.library.tulane.edu/journals">
+                        <a href="http://journals.tulane.edu">
                             <img src="<?=base_url()?>assets/img/home/collections_list_img_journals.png" alt="Tulane Journals" />
                         </a>    
                     </div>
@@ -18,13 +18,13 @@
                     <div class="collections_list_text_area">
 
                         <h3 class="collections_list_title">
-                            <a href="http://staff.library.tulane.edu/journals">
+                            <a href="http://journals.tulane.edu">
                                 Tulane Journals
                             </a>
                         </h3>
 
                         <span class="collections_list_description">
-                            Open Access  peer-reviewed journals published through Tulane University Journal Publishing.
+                            <strong>Open Access Peer-Reviewed Journals</strong> published through <a href="http://journals.tulane.edu"><strong>Tulane University Journal Publishing.</strong></a>
                         </span>
 
                     </div>
@@ -46,7 +46,7 @@
                         </h3>
 
                         <span class="collections_list_description">
-                           Tulane graduate theses and dissertations from 1956 through the present.
+                            Tulane Graduate <a href="http://staff.library.tulane.edu/tdl_ttd/"><strong>Theses &amp; Dissertations</strong></a> from <strong>1956 through the present</strong>.
                         </span>
 
                     </div>
@@ -69,7 +69,7 @@
                         </h3>
 
                         <span class="collections_list_description">
-                           Digitized collections of photographs, sheet music, manuscripts, texts, and other unique and rare material from Tulane's libraries, archives and other affiliated resources and centers.
+                            <a href="http://digitallibrary.tulane.edu"><strong>Digitized Collections</strong></a> of Photographs, Sheet Music, Manuscripts, Texts, and other Unique and Rare Material from Tulane's Libraries, Archives and other affiliated resources and centers.
                         </span>
 
                     </div>
@@ -165,27 +165,23 @@
     <div id="column_statistics">
         <div id="column_statistics_content">
             <h5><img src="<?=base_url()?>assets/img/home/footer/statistics_title.png" alt="contact" /></h5>
-            <h6>most popular items:</h6>
-            <ul>
-                <li><a href="#">item</a></li>
-                <li><a href="#">item</a></li>
-                <li><a href="#">item</a></li>
-            </ul>
-            <h6>recent additions:</h6>
-            <ul>
-                <li><a href="#">item</a></li>
-                <li><a href="#">item</a></li>
-                <li><a href="#">item</a></li>
-            </ul>
+            <p>
+                We currently have: 
+                    <a href="http://staff.library.tulane.edu/tdl_ttd">4371 Theses &amp; Dissertations</a>; 
+                    <a href="http://digitallibrary.tulane.edu/">18 Digital Collections encompassing over ???? items</a>; 
+                    and <a href="http://journals.tulane.edu/">4 Open-Access Academic Journals.</a>
+            </p>
         </div>
     </div>
     
-    <div id="column_submission">
-        <div id="column_submission_content">
-            <h5><img src="<?=base_url()?>assets/img/home/footer/submission_title.png" alt="contact" /></h5>
+    <div id="column_services">
+        <div id="column_services_content">
+            <h5><img src="<?=base_url()?>assets/img/home/footer/services_title.png" alt="contact" /></h5>
             <ul>
-                <li class="list_star"><a href="http://staff.library.tulane.edu/tdl_ttd/forms/td_submit">theses &amp; dissertations</a></li>
-                <li class="list_star"><a href="http://staff.library.tulane.edu/journals/">journal</a></li>
+                <li><a href="http://staff.library.tulane.edu/tdl_ttd/forms/td_submit">theses &amp; dissertations</a></li>
+                <li><a href="http://staff.library.tulane.edu/journals/">journal publishing</a></li>
+                <li><a href="http://digitallibrary.tulane.edu">digital library</a></li>
+                <li><a href="http://xerxes.library.tulane.edu/tdl/research/cols">researcher services</a></li>
             </ul>
         </div>
     </div>

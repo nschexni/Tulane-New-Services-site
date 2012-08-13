@@ -53,9 +53,12 @@
 }
 
 #collections_list_content ul li {
-    display: inline-block;
-    width: 100%;
-    padding:10px 0 10px 0;
+  display: inline-block;
+  width: 95%;
+  padding: 10px 0 10px 10px;
+
+background:#fafafa;
+border:1px solid #ccc;
 }
 
 .collections_list_img a {
@@ -68,7 +71,7 @@
     border: 1px solid #bbbbbb;  
 }
 
-.collections_list_img a:hover{border:1px solid @avenue_blue;}
+.collections_list_img a:hover{border:1px solid @avenue_blue}
 
 .collections_list_img img {
     margin:6px 0 0 6px;
@@ -84,12 +87,12 @@
 }
 
 h3.collections_list_title {
-    font-size: 2em;
-    font-weight: normal;
-    text-transform: uppercase;
-    color:@avenue_blue;
-    padding: 0 0 0 0;
-    margin: 0 0 6px 0;
+  font-size: 2em;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: @avenue_blue;
+  padding: 5px 0 0 0;
+  margin: 0;
 }
 
 h3.collections_list_title a{
@@ -103,14 +106,26 @@ h3.collections_list_title a:hover{
 }
 
 .collections_list_description {
-font-family: Arial;
-color: #222;
-text-decoration: none;
-word-spacing: normal;
-text-align: left;
-letter-spacing: 0;
-line-height: 1.5em;
-font-size: 1.5em;
+  color: #333;
+  text-decoration: none;
+  word-spacing: normal;
+  text-align: left;
+  letter-spacing: 0;
+  line-height: 1.5em;
+  font-size: 1.6em;
+}
+.collections_list_description strong {
+
+  font-size: 100%;
+  font-weight: bold;
+}
+.collections_list_description a strong {
+  color: #333;
+  text-decoration:none;
+}
+.collections_list_description a:hover strong {
+  color: #333;
+  text-decoration:underline;
 }
 
 
@@ -362,17 +377,13 @@ list-style-type:circle;
 font-size:1.2em;
 }
 
-
-
-
-
-#column_submission {
+#column_services {
   width: 320px;
   float: left;
 }
-#column_submission li.list_star {
-  list-style: url('/new_services/assets/img/home/footer/list_star.png');
-  font-size: 1.8em;
+#column_services ul li{
+  list-style-type:circle;
+  font-size:1.4em;
   text-transform: capitalize;
   padding: 0px 0 10px 0;
 }
