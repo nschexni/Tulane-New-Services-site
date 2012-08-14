@@ -196,20 +196,20 @@
                 <li>
                     <a href="http://staff.library.tulane.edu/tdl_ttd/forms/td_submit">Theses &amp; Dissertations
                     </a>
-                    <span class="services_description">Submit your Thesis/Dissertation.</span>
+                    <span class="services_description">Submit Your Thesis/Dissertation</span>
                 </li>
                 <li>
                     <a href="http://staff.library.tulane.edu/journals/">
                         Journal Publishing
                     </a>
-                    <span class="services_description">Instructions for Journal Proposal</span>
+                    <span class="services_description">Submit Your Journal Proposal</span>
                 </li>
                 <li>
                    <a href="http://digitallibrary.tulane.edu/about">Digital Library</a>
-                   <span class="services_description">Collection submission directions.</span>
+                   <span class="services_description">Submit a Collection Proposal</span>
                 </li>
                 <li><a href="http://xerxes.library.tulane.edu/tdl/research/cols">Researcher Services</a>
-                    <span class="services_description">Instructions &AMP; useful links for Research Projects</span>
+                    <span class="services_description">Tools &AMP; Resources for Researchers</span>
                 </li>
             </ul>
             
