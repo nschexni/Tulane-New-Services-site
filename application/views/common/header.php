@@ -41,8 +41,9 @@
                     <img src="<?=base_url();?>assets/img/header/community_repositories_header.png" alt="Home" usemap="#Header_Image_Map" />
                 </a>
                 <map name="Header_Image_Map">
-                    <area shape="rect" coords="204,0,900,104" href="<?=base_url()?>" title="New Services" alt="New Services" />
-                    <area shape="rect" coords="0,0,196,104" href="http://tulane.edu" target="_blank" title="Tulane University Homepage" alt="Tulane University Homepage" />
+                    <area shape="rect" coords="228,3,960,95" href="/new_services" title="Community Repositories Homepage" alt="Community Repositories Homepage" />
+                    <area shape="rect" coords="60,62,208,100" href="http://library.tulane.edu" title="Howard-Tilton Memorial Library's Homepage" alt="Howard-Tilton Memorial Library's Homepage" />
+                    <area shape="rect" coords="19,8,208,62" href="http://tulane.edu" title="Tulane University's Homepage" alt="Tulane University's Homepage" />
                 </map>
             <!--end:Logo Title --></div>    
         <!--end:Header --></div>        

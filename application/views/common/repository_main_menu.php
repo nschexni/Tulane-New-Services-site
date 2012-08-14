@@ -23,7 +23,7 @@
     <div id="top_stripe_bar">&nbsp;</div>
     <ul class="sf-menu">
             <li class="nav_top_level">
-                <a href="<?= base_url();?>">about</a>
+                <a href="<?= base_url();?>">home</a>
             </li>
             
             <li class="nav_top_level">

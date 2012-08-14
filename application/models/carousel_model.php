@@ -14,28 +14,28 @@ class Carousel_model extends CI_Model{
 
            
            //ITEM TWO DATA
-           'item_two_title' => 'the Charrette',
-           'item_two_link' => 'https://journals.tulane.edu/index.php/TC/index',
-           'item_two_img' => 'assets/img/carousel/carousel_charrette.jpg',
-           'item_two_alt' => "the Charrette Journal from the Tulane School of Architecture",
-           'subitem_two_headline' => "the Charrette | July 2012",
-           'subitem_two_teaser' => "Layered Capacities", 
+           'item_two_title' => 'Second Line ',
+           'item_two_link' => 'https://journals.tulane.edu/index.php/SL',
+           'item_two_img' => 'assets/img/carousel/carousel_secondline.jpg',
+           'item_two_alt' => "Second Line peer-edited journal at Tulane University",
+           'subitem_two_headline' => "Second Line",
+           'subitem_two_teaser' => "An Undergraduate Journal of Literary Conversation", 
            'subitem_two_subtitle' => "Articles:", 
            'subitem_two_listitems[0]' => array(
-                                        "link"=>"https://journals.tulane.edu/index.php/TC/article/view/14/14",
-                                        "title"=>"A Modernist Perspective: New Orleans Design Threatened"
+                                        "link"=>"https://journals.tulane.edu/index.php/SL/article/view/4/4",
+                                        "title"=>" Kathryn Bigelow's Strange Days"
                                       ), 
            'subitem_two_listitems[1]' => array(
-                                        "link"=>"https://journals.tulane.edu/index.php/TC/article/view/17/17",
-                                        "title"=>"Defining Confinement: Are Posh Prisons the Answer?"
+                                        "link"=>"https://journals.tulane.edu/index.php/SL/article/view/5/5",
+                                        "title"=>"The Bomb: from Terror to Cynicism"
                                       ),
            'subitem_two_listitems[2]' => array(
-                                        "link"=>"https://journals.tulane.edu/index.php/TC/article/view/12/12",
-                                        "title"=>"Genesis: Lucid Dreaming as a Design Tool"
+                                        "link"=>"https://journals.tulane.edu/index.php/SL/article/view/6/6",
+                                        "title"=>"Bhimayana: Thirst for Khulla"
                                       ),
            'subitem_two_listitems[3]' => array(
-                                        "link"=>"https://journals.tulane.edu/index.php/TC/article/view/15/15",
-                                        "title"=>"The Shard: Experiencing London's Vertical City"
+                                        "link"=>"https://journals.tulane.edu/index.php/SL/article/view/7/7",
+                                        "title"=>"The Wife of Bath: Chaucer's Authorial Control over Alisoun"
                                       ),
            
            

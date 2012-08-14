@@ -25,7 +25,7 @@ class Home extends CI_Controller {
             $data['news'] = $this->news_model->news_items();
             
             //Homepage Array
-            $homepage = array('title' => 'Community Repository @ Tulane Library', $data);
+            $homepage = array('title' => 'Community Repositories @ Tulane Library', $data);
             
             //loads header
             $this->load->view('common/header', $homepage);
