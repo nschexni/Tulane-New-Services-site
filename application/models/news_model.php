@@ -13,7 +13,7 @@ class News_model extends CI_Model{
                            ),
             'story_two' => array(
                             'title' => 'New addition to Tulane Journal Publishing',
-                            'link' => 'http://129.81.82.219/index.php/tjia/index',
+                            'link' => 'https://journals.tulane.edu/index.php/tjia/index',
                             'img' => 'assets/img/home/news/news_list_tjia.png',
                             'alt' => 'Logo of Tulane Journal of Inernational Affairs',
                             'text' => "The Tulane Journal of International Affairs is switching from print to Tulane's online, open access publishing platform. TJIA is an undergraduate, peer reviewed journal which brings outstanding writing relating to its three sections: International Security, International Political Economy, and Human Rights."

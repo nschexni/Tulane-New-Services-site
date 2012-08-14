@@ -46,7 +46,7 @@
 #collections_list {
     width: 640px;
     float: left;
-    margin-top: 0;
+    margin-top: 1px;
 }
 
 #collections_list_content{
@@ -59,6 +59,7 @@
 
 background:#fafafa url('/new_services/assets/img/home/collections_container_gradient.png') repeat-x;
 border:1px solid #ccc;
+border-top:3px solid @avenue_blue;
 }
 
 .collections_list_img a {
@@ -289,7 +290,7 @@ border-top:none;
   color: white;
   float: left;
   width: 100%;
-  padding-bottom:40px;
+  padding-bottom: 20px;
 }
 #homepage_bottom_section a {
   color: #fff;
@@ -322,68 +323,87 @@ border-top:none;
   text-transform: uppercase;
   color: #fff;
   font-family: Georgia, serif;
-  padding: 0 0 0 0;
-  margin: 7px 0 6px 10px;
+  padding: 0;
+  margin: 7px 0 6px 30px;
 }
-#column_contact {
-  width: 320px;
+#column_statistics {
+  width: 550px;
   float: left;
 }
-#column_contact {
-  width: 320px;
+#column_statistics_content dl dt {
+  font-size: 3em;
+  margin: 10px;
+  color: #fff;
+  float: left;
+  width: 150px;
+  text-align: right;
+}
+
+#column_statistics_content {
+padding-left:150px;
+}
+
+#column_statistics_content dl dd {
+  font-size: 1.3em;
+  display: table-cell; 
+  color:#ad8938;
+}
+#column_statistics_content dl dd a {
+  text-transform: uppercase;
+}
+#column_services {
+  width: 260px;
   float: left;
 }
-#column_contact_content p.contact_text {
-  margin: -10px 0 10px 30px;
-  font-size: 1.7em;
-  display: none;
+#column_services ul {
+  padding-left: 5px;
 }
-#column_contact_content ul {
-  margin: 3px 0 0 0;
+#column_services ul li {
+  font-size: 1.5em;
+ color:#ad8938;
+  list-style-type: none;
+  padding: 0px 0 5px 0;
+}
+#column_services_content .services_description{
+font-size:80%;
+ line-height: 1.5em;
+display:block;
+}
+
+
+#column_contact {
+  width: 960px;
+  float: left;
+  border-top: 1px solid #444;
+}
+
+#column_contact_content{
+    width: 63%;
+    margin: 0px auto;
+}
+
+#column_contact_content h5 img {
+  display: inline;
+  float: left;
+}
+#column_contact_content ul li {
+  margin: 21px 0 0 0;
+  padding: 0;
+  float: left;
+  display: inline;
 }
 #column_contact_content li .contact_name {
   font-size: 2em;
   font-weight: 700;
-  margin: 5px 0 0 0;
+  padding: 0 10px 0 0;
+  border-right: 1px solid #ccc;
 }
 #column_contact_content li .contact_phone {
   font-size: 1.7em;
-  margin: 5px 0 0 0;
+  padding: 0 10px 0 10px;
+  border-right: 1px solid #ccc;
 }
 #column_contact_content li .contact_email {
   font-size: 1.7em;
-  margin: 5px 0 0 0;
+  padding: 0 10px 0 10px;
 }
-#column_statistics {
-  width: 310px;
-  float: left;
-}
-
-
-#column_statistics h6{
-margin:0 0 0 25px;
-color:#fff;
-font-size:1.2em;
-}
-
-
-#column_statistics ul{
-margin:0 0 0 25px;
-}
-
-#column_statistics ul li{
-list-style-type:circle;
-font-size:1.2em;
-}
-
-#column_services {
-  width: 320px;
-  float: left;
-}
-#column_services ul li{
-  list-style-type:circle;
-  font-size:1.4em;
-  text-transform: capitalize;
-  padding: 0px 0 10px 0;
-}
-

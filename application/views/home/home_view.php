@@ -24,7 +24,7 @@
                         </h3>
 
                         <span class="collections_list_description">
-                            <strong>Open Access Peer-Reviewed Journals</strong> published through <a href="http://journals.tulane.edu"><strong>Tulane University Journal Publishing.</strong></a>
+                            <strong>Open Access Peer-Reviewed Journals</strong> published through <a href="http://journals.tulane.edu"><strong>Tulane University Journal Publishing</strong></a>.
                         </span>
 
                     </div>
@@ -69,7 +69,7 @@
                         </h3>
 
                         <span class="collections_list_description">
-                            <a href="http://digitallibrary.tulane.edu"><strong>Digitized Collections</strong></a> of Photographs, Sheet Music, Manuscripts, Texts, and other Unique and Rare Material from Tulane's Libraries, Archives and other affiliated resources and centers.
+                            <a href="http://digitallibrary.tulane.edu"><strong>Digitized Collections</strong></a> of photographs, sheet music, manuscripts, texts, and other unique and rare material from Tulane's libraries, archives and other affiliated resources and centers.
                         </span>
 
                     </div>
@@ -126,7 +126,6 @@
                 <ul>
                     <?=$rss_feed[0]; ?>
                     <?=$rss_feed[1]; ?>
-                    <?=$rss_feed[2]; ?>
                 </ul>
             
            
@@ -148,29 +147,45 @@
 
 <div id="homepage_bottom_section"><!-- Home Page Bottom Section Begin -->  
     <div class="large_striped_bar_footer">&nbsp;</div>
-    <div id="column_contact">
-        <div id="column_contact_content">
-            <h5 class="column_contact">
-                <img src="<?=base_url()?>assets/img/home/footer/contact_title.png" alt="contact" />
-            </h5>
-            <p class="contact_text">We want to help!</p>
-            <ul>
-                <li><span class="contact_name">Jeff Rubin</span></li>
-                <li><span class="contact_phone">(504)247-1382</span></li>
-                <li><span class="contact_email"><a href="mailto:jrubin6@tulane.edu">jrubin6@tulane.edu</a></span></li>
-            </ul>
-        </div>
-    </div>
     
     <div id="column_statistics">
         <div id="column_statistics_content">
             <h5><img src="<?=base_url()?>assets/img/home/footer/statistics_title.png" alt="contact" /></h5>
-            <p>
-                We currently have: 
-                    <a href="http://staff.library.tulane.edu/tdl_ttd">4371 Theses &amp; Dissertations</a>; 
-                    <a href="http://digitallibrary.tulane.edu/">18 Digital Collections encompassing over 11,000 items</a>; 
-                    and <a href="http://journals.tulane.edu/">4 Open-Access Academic Journals.</a>
-            </p>
+                <dl>
+                   <dt><a href="http://digitallibrary.tulane.edu/">11,000+</a></dt>
+                   <dd>Items in our <br /> 
+                       <a href="http://digitallibrary.tulane.edu/">
+                            Digital Library
+                       </a>
+                   </dd>
+               </dl>
+
+               <dl>
+                   <dt><a href="http://staff.library.tulane.edu/tdl_ttd">4,371</a></dt>
+                   <dd>Items in our <br />
+                       <a href="http://staff.library.tulane.edu/tdl_ttd">
+                           Theses &amp; Dissertation Collection
+                       </a>
+                   </dd>
+               </dl>
+               
+               <dl>
+                   <dt><a href="http://digitallibrary.tulane.edu/">18</a></dt>
+                   <dd>Collections in our <br /> 
+                       <a href="http://digitallibrary.tulane.edu/">
+                            Digital Library
+                       </a>
+                   </dd>
+               </dl>
+               <dl>
+                   <dt><a href="http://journals.tulane.edu/">4</a></dt>
+                   <dd>Number of <br />
+                       <a href="http://journals.tulane.edu/">
+                            Open-Access Academic Journals 
+                       </a>
+                   </dd>    
+               </dl>
+
         </div>
     </div>
     
@@ -178,10 +193,38 @@
         <div id="column_services_content">
             <h5><img src="<?=base_url()?>assets/img/home/footer/services_title.png" alt="contact" /></h5>
             <ul>
-                <li><a href="http://staff.library.tulane.edu/tdl_ttd/forms/td_submit">theses &amp; dissertations</a></li>
-                <li><a href="http://staff.library.tulane.edu/journals/">journal publishing</a></li>
-                <li><a href="http://digitallibrary.tulane.edu">digital library</a></li>
-                <li><a href="http://xerxes.library.tulane.edu/tdl/research/cols">researcher services</a></li>
+                <li>
+                    <a href="http://staff.library.tulane.edu/tdl_ttd/forms/td_submit">Theses &amp; Dissertations
+                    </a>
+                    <span class="services_description">Submit your Thesis/Dissertation.</span>
+                </li>
+                <li>
+                    <a href="http://staff.library.tulane.edu/journals/">
+                        Journal Publishing
+                    </a>
+                    <span class="services_description">Instructions for Journal Proposal</span>
+                </li>
+                <li>
+                   <a href="http://digitallibrary.tulane.edu/about">Digital Library</a>
+                   <span class="services_description">Collection submission directions.</span>
+                </li>
+                <li><a href="http://xerxes.library.tulane.edu/tdl/research/cols">Researcher Services</a>
+                    <span class="services_description">Instructions &AMP; useful links for Research Projects</span>
+                </li>
+            </ul>
+            
+        </div>
+    </div>
+    
+    <div id="column_contact">
+        <div id="column_contact_content">
+            <h5 class="column_contact">
+                <img src="<?=base_url()?>assets/img/home/footer/contact_title.png" alt="contact" />
+            </h5>
+            <ul>
+                <li><span class="contact_name">Jeff Rubin</span></li>
+                <li><span class="contact_phone">504.247.1832</span></li>
+                <li><span class="contact_email"><a href="mailto:jrubin6@tulane.edu">jrubin6@tulane.edu</a></span></li>
             </ul>
         </div>
     </div>

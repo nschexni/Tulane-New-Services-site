@@ -47,13 +47,13 @@ class Carousel_model extends CI_Model{
            
            //ITEM FOUR DATA
            'item_four_title' => 'Tulane Journal of International Affairs ',
-           'item_four_link' => 'http://129.81.82.219/index.php/tjia/index',
+           'item_four_link' => 'https://journals.tulane.edu/index.php/tjia/index',
            'item_four_img' => 'assets/img/carousel/carousel_journal_international.jpg',
            'item_four_alt' => "Tulane Journal of International Affairs",
            
            //ITEM FIVE DATA
            'item_five_title' => 'THESIS: RETROVIRAL MEDIATED TRANSGENESIS',
-           'item_five_link' => 'http://staff.library.tulane.edu/tdl_ttd',
+           'item_five_link' => 'http://louisdl.louislibraries.org/cdm4/item_viewer.php?CISOROOT=/p16313coll12&CISOPTR=3674&CISOBOX=1&REC=1',
            'item_five_img' => 'assets/img/carousel/carousel_thesis_retroviral.jpg',
            'item_five_alt' => "Thesis: Retroviral Mediated Transgenesis of the Human Blood Fluke, Schistosoma Manosin by Kristine J. Kines, MSPH",
            'subitem_five_headline' => "THESIS: Retroviral Mediated Trangenesis Of The Human Blood Fluke, Schistosoma Mansoni", 

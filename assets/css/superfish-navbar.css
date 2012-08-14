@@ -37,7 +37,8 @@
 }
 
 .sf-navbar li.current {
-	background:url('/new_services/assets/img/common/topHover_blue.gif'); 
+/*	background:url('/new_services/assets/img/common/topHover_blue.gif'); */
+	background:url('/new_services/assets/img/common/overBlue.gif'); 
         color:#224568;
 }
 
@@ -47,7 +48,8 @@
 .sf-navbar a:focus, 
 .sf-navbar a:hover, 
 .sf-navbar a:active {
-background:url('/new_services/assets/img/common/topHover_blue.gif'); 
+/*	background:url('/new_services/assets/img/common/topHover_blue.gif'); */
+	background:url('/new_services/assets/img/common/overBlue.gif'); 
 color:#224568;
 }
 .sf-navbar ul li:hover,

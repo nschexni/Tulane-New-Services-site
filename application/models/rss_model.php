@@ -12,7 +12,7 @@ class Rss_model extends CI_Model{
 
             //if the feed exists, then continue  
             if ($xml!=''){      
-                $max_rss_items = 3;
+                $max_rss_items = 2;
                 $count = 0;
                 $rss_items = array();
                 foreach ($xml->channel->item as $item){
