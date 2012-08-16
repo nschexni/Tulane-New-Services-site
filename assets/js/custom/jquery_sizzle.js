@@ -20,5 +20,5 @@ shift(),i.sort());if(!!e&&!f.event.customEvent[h]||!!f.event.global[h]){c=typeof
 
 $this.is(".selected")?($this.removeClass("selected"),k(!0),d=l()):(clearInterval(d),c.stop(!0,!0),b=a.index(this),a.removeClass("active selected previous"),c.css("width","0px"),a.each(function(a){a<b&&jQuery(this).addClass("previous")}),$this.addClass("active selected"),j(b))});jQuery("a[js-lightbox]").click(function(){a.removeClass("selected");a.filter(".active").click()});
 
-
+var TULANE = {};
 TULANE.HeroUnit=function(){return{pause:function(){a.removeClass("selected");a.filter(".active").click()},resume:function(){a.filter(".selected").click()}}}()}});

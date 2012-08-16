@@ -38,10 +38,10 @@
         <!--start:Header --><div id="header">
             <!--start:Logo Title --><div id="logo-title">
                 <a href="/" title="Home" rel="home" id="logo">
-                    <img src="<?=base_url();?>assets/img/header/community_repositories_header.png" alt="Home" usemap="#Header_Image_Map" />
+                    <img src="<?=base_url();?>assets/img/header/tulane_digital_repository_header.png" alt="Home" usemap="#Header_Image_Map" />
                 </a>
                 <map name="Header_Image_Map">
-                    <area shape="rect" coords="228,3,960,95" href="/new_services" title="Community Repositories Homepage" alt="Community Repositories Homepage" />
+                    <area shape="rect" coords="228,3,960,95" href="<?=base_url();?>" title="Tulane Digital Repository" alt="Tulane Digital Repository" />
                     <area shape="rect" coords="60,62,208,100" href="http://library.tulane.edu" title="Howard-Tilton Memorial Library's Homepage" alt="Howard-Tilton Memorial Library's Homepage" />
                     <area shape="rect" coords="19,8,208,62" href="http://tulane.edu" title="Tulane University's Homepage" alt="Tulane University's Homepage" />
                 </map>
