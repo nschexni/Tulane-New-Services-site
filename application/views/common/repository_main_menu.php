@@ -31,7 +31,7 @@
             </li>
 
             <li class="nav_top_level">
-                    <a href="http://staff.library.tulane.edu/tdl_ttd/">theses &amp; dissertations</a>
+                    <a href="http://theses.tulane.edu">theses &amp; dissertations</a>
                      
             </li>	
 
@@ -42,7 +42,7 @@
 
     <ul class="sf-menu services">
         <li class="nav_top_level"><a href="http://staff.library.tulane.edu/journals/">publishing services</a>
-        <li class="nav_top_level"><a href="http://xerxes.library.tulane.edu/tdl/research/cols">researcher services</a>
+        <li class="nav_top_level"><a href="http://researchers.tulane.edu">researcher services</a>
     </ul>
                     
 
