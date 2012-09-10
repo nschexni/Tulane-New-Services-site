@@ -18,6 +18,7 @@ class Rss_model extends CI_Model{
                 foreach ($xml->channel->item as $item){
                         // create variables from the title and description (can also be used for images and links)
                         $title = $item->title;
+
                         $description = $item->description;
                         $link = $item->link;
                         $pub_date = $item->pubDate;

@@ -34,7 +34,6 @@ class Home extends CI_Controller {
             $this->load->view('common/repository_main_menu');
   
             //loads views/home/home_view.php
-            //$this->load->view('home/home_view_1', $data);  
             $this->load->view('home/home_view', 
                 array(
                      'carousel'=> $this->load->view('carousel/home_carousel', $data,TRUE)

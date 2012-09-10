@@ -161,9 +161,9 @@
                </dl>
 
                <dl>
-                   <dt><a href="http://staff.library.tulane.edu/tdl_ttd">4,371</a></dt>
+                   <dt><a href="http://theses.tulane.edu">4,371</a></dt>
                    <dd>Items in our <br />
-                       <a href="http://staff.library.tulane.edu/tdl_ttd">
+                       <a href="http://theses.tulane.edu">
                            Theses &amp; Dissertation Collection
                        </a>
                    </dd>
