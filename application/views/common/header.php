@@ -1,7 +1,10 @@
 <!doctype html>
-<html>
+<html lang="en">
     
 <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Tulane University Digital Repository">
+    <meta name="author" content="Howard-Tilton Memorial Library">
     <title><?=$title?></title>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
     

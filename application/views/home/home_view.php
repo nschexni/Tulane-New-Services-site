@@ -32,7 +32,7 @@
 
                  <li>
                     <div class="collections_list_img">
-                        <a href="http://staff.library.tulane.edu/tdl_ttd/">
+                        <a href="http://theses.tulane.edu">
                             <img src="<?=base_url()?>assets/img/home/collections_list_img_theses.png" alt="Tulane These and Dissertations" />
                         </a>    
                     </div>
@@ -40,13 +40,13 @@
                     <div class="collections_list_text_area">
 
                         <h3 class="collections_list_title">
-                            <a href="http://staff.library.tulane.edu/tdl_ttd/">
+                            <a href="http://theses.tulane.edu">
                                 Tulane Theses &amp; Dissertations
                             </a>    
                         </h3>
 
                         <span class="collections_list_description">
-                            Tulane Graduate <a href="http://staff.library.tulane.edu/tdl_ttd/"><strong>Theses &amp; Dissertations</strong></a> from <strong>1956 through the present</strong>.
+                            Tulane Graduate <a href="http://theses.tulane.edu"><strong>Theses &amp; Dissertations</strong></a> from <strong>1956 through the present</strong>.
                         </span>
 
                     </div>
@@ -150,7 +150,7 @@
     
     <div id="column_statistics">
         <div id="column_statistics_content">
-            <h5><img src="<?=base_url()?>assets/img/home/footer/statistics_title.png" alt="contact" /></h5>
+            <h5><img src="<?=base_url()?>assets/img/footer/statistics_title.png" alt="statistics" /></h5>
                 <dl>
                    <dt><a href="http://digitallibrary.tulane.edu/">11,000+</a></dt>
                    <dd>Items in our <br /> 
@@ -161,9 +161,9 @@
                </dl>
 
                <dl>
-                   <dt><a href="http://staff.library.tulane.edu/tdl_ttd">4,371</a></dt>
+                   <dt><a href="http://theses.tulane.edu">4,371</a></dt>
                    <dd>Items in our <br />
-                       <a href="http://staff.library.tulane.edu/tdl_ttd">
+                       <a href="http://theses.tulane.edu">
                            Theses &amp; Dissertation Collection
                        </a>
                    </dd>
@@ -194,7 +194,7 @@
             <h5><img src="<?=base_url()?>assets/img/home/footer/services_title.png" alt="contact" /></h5>
             <ul>
                 <li>
-                    <a href="http://staff.library.tulane.edu/tdl_ttd/forms/td_submit">Theses &amp; Dissertations
+                    <a href="http://theses.tulane.edu/submit">Theses &amp; Dissertations
                     </a>
                     <span class="services_description">Submit Your Thesis/Dissertation</span>
                 </li>
@@ -208,7 +208,7 @@
                    <a href="http://digitallibrary.tulane.edu/about">Digital Library</a>
                    <span class="services_description">Submit a Collection Proposal</span>
                 </li>
-                <li><a href="http://xerxes.library.tulane.edu/tdl/research/cols">Researcher Services</a>
+                <li><a href="http://researchers.tulane.edu/">Researcher Services</a>
                     <span class="services_description">Tools &AMP; Resources for Researchers</span>
                 </li>
             </ul>
