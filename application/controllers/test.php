@@ -30,5 +30,25 @@ class Test extends CI_Controller{
             
             
         }
+
+        public function db_test(){
+            $this->load->helper('array');
+            $this->load->model('carousel_model');
+            $data['rows'] = $this->carousel_model->getAll();
+            //load the carousel_model
+            
+            //$data['rows'] = $this->carousel_model->getAll();
+
+            //loads header
+            //$this->load->view('common/header',$data);
+
+            //loads view
+            $this->load->view('test/db_test',$data);
+            
+            //loads footer
+            //$this->load->view('common/footer');  
+
+        }
+
     
 }

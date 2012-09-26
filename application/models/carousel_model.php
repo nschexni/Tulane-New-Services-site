@@ -2,6 +2,17 @@
 
 class Carousel_model extends CI_Model{
     
+
+    function getAll(){
+      $q = $this->db->query("SELECT * FROM carousel");
+        foreach ($q as $key => $value) {
+          $data['key'] = $key;
+          $data['value'] = $value;
+        }
+        return $data;
+    }
+
+
     function carousel_items(){
 
        
@@ -72,8 +83,6 @@ class Carousel_model extends CI_Model{
                                         "title"=>""
                                       ),
        );
-       
-       
        return $items;
     }
     
