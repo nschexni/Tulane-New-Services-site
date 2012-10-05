@@ -14,6 +14,7 @@ class Home extends CI_Controller {
             
             //load Carousel Model
             $this->load->model('carousel_model');
+            //$data['carousel'] = $this->carousel_model->carousel_items();
             $data['carousel'] = $this->carousel_model->carousel_items();
             
             //load Rss feed Model
