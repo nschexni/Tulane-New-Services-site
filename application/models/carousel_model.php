@@ -5,20 +5,45 @@ class Carousel_model extends CI_Model{
 
     function getAll(){
       $q = $this->db->query("SELECT * FROM carousel");
-        foreach ($q as $key => $value) {
-          $data['key'] = $key;
-          $data['value'] = $value;
+        foreach ($q->result() as $row ) {
+            $carousel[] = $row; 
         }
-        return $data;
+        return $carousel;
     }
 
+    function getFull(){
+        $q = $this->db->query(
+                 "SELECT carousel.title AS story_title
+		,carousel.link AS story_link
+		,carousel.img  AS story_image
+		,carousel.alt AS story_alt
+		,subitem.headline AS sub_headline
+		,subitem.teaser AS sub_teaser
+		,subitem.subtitle AS sub_subtitle
+		,listitems.link AS list_link
+		,listitems.title AS list_name
+                FROM carousel		
+                LEFT JOIN subitem ON(
+                    carousel.id = subitem.carousel_id
+                    )
+                LEFT JOIN listitems ON(
+                    carousel.id = listitems.carousel_id
+                    )	
+                ");
+        
+                foreach ($q->result() as $row) {
+                    $carousel[] = $row;
+                    }
+                    return $carousel;
+                }
 
     function carousel_items(){
-
-       
+       $carousel = $this->getFull();
        $items = array(
             //ITEM ONE DATA
-           'item_one_title' => "Tulane University Football Programs",
+           'item_one_title' => "Tulane University Football Programs", 
+           //'item_one_title' => print_r($carousel),
+           //'item_one_title' => $carousel[0]['stdClass']['story_title'],
            'item_one_link' => "http://digitallibrary.tulane.edu/collection?id=66",
            'item_one_img' => "assets/img/carousel/carousel_football_programs_ver2.jpg",
            'item_one_alt' => "Tulane University Football Programs",

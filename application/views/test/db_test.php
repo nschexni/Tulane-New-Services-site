@@ -5,10 +5,17 @@
 
 <?php 
 	
-	foreach ($rows as $key => $value) {
-		print '<tr><td>'.$key.'</td><td>'.$value.'</td></tr>';
-	}
+	foreach ($row as $r) {
+		//print '<tr><td>'.$r->title.'</td><td>'.$r->link.'</td></tr>';
+                print $r->story_title; 
+	};
+//        print "<pre>";
+//        print_r($row);
+          
 
+            
+        
+        
 ?>
 
 </table>
