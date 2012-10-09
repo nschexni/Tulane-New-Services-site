@@ -1,11 +1,3 @@
-<?php /*
-      <? 
-
-    '<pre>'.  
-    print_r($carousel);
-?> */?>
-
-
 <div id="homepage_carousel">
     <div class="shell container-content-main">
         <div class="container_24 clear">
@@ -55,41 +47,45 @@
                                 
                                 
                                 
-                                <? if(isset($carousel[$i]['subitem_headline'])){ ?>
-                                    <!-- sub items in the right -->
-                                <div class="cvr-highlights">
-                                    <div class="cvr-headline lcs-headline">
-                                        <a href="<?= $carousel[$i]['item_link']; ?>">
-                                            <?= $carousel[$i]['subitem_headline']; ?>
-                                        </a>
-                                    </div>
-                                    <div class="cvr-teaser lcs-teaser"><?= $carousel[$i]['subitem_teaser']; ?>
-                                    </div>
-                                    <div class="cvr-highlightsSubTitle"><?= $carousel[$i]['subitem_subtitle']; ?></div>
-<!--                                    <ul class="evo-coverStories-subitems">
-                                        <li class="alpha"> 
-                                            <a href="<?= $carousel['subitem_two_listitems[0]']['link'] ?>">
-                                                <?= $carousel['subitem_two_listitems[0]']['title'] ?>
-                                            </a> 
-                                        </li>
-                                        <li> 
-                                            <a href="<?= $carousel['subitem_two_listitems[1]']['link'] ?>">
-                                                <?= $carousel['subitem_two_listitems[1]']['title'] ?>
-                                            </a> 
-                                        </li>
-                                        <li> 
-                                            <a href="<?= $carousel['subitem_two_listitems[2]']['link'] ?>">
-                                                <?= $carousel['subitem_two_listitems[2]']['title'] ?>
-                                            </a> 
-                                        </li>
-                                        <li> 
-                                            <a href="<?= $carousel['subitem_two_listitems[3]']['link'] ?>">
-                                                <?= $carousel['subitem_two_listitems[3]']['title'] ?>
-                                            </a> 
-                                        </li>
-                                        
-                                    </ul>-->
-<!--                                     END: evo-coverStories-subitems  -->
+            <? if(isset($carousel[$i]['subitem_headline'])){ ?>
+                <!-- sub items in the right -->
+                    <div class="cvr-highlights">
+                        <div class="cvr-headline lcs-headline">
+                            <a href="<?= $carousel[$i]['item_link']; ?>">
+                                <?= $carousel[$i]['subitem_headline']; ?>
+                            </a>
+                        </div>
+                        <div class="cvr-teaser lcs-teaser">
+                               <?= $carousel[$i]['subitem_teaser']; ?>
+                        </div>
+                        <div class="cvr-highlightsSubTitle">
+                                <?= $carousel[$i]['subitem_subtitle']; ?>
+                        </div>
+                                    
+                <? 
+                    //Build this section if there are any listitems.  
+                    //and set the number of loop run = to the number of items in the array
+                    if($carousel[$i]['listitem_count'] > 0){
+                    $counter = 0;
+                    $max = $carousel[$i]['listitem_count'];
+                ?>                        
+                        <ul class="evo-coverStories-subitems">
+                            <? 
+                                for($i=1;$i <= $max;$i++){ 
+                                $counter += 1;
+                            ?>  
+                                <li <? if($i===1){print'class="alpha"';}?>>
+                                    <a href="<?= $carousel[2][$counter]['listitem_link']; ?>">
+                                        <?= $carousel[2][$counter]['listitem_title']; ?>
+                                    </a> 
+                            </li>
+                            <?}?>
+                        </ul>
+           <? }?>             
+                       
+                        
+                        
+                        <!-- END: evo-coverStories-subitems  -->
                                 </div>
                                 <? }?>
                                 
